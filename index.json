@@ -5,9 +5,9 @@
     "passes": 12,
     "pending": 0,
     "failures": 9,
-    "start": "2024-06-27T19:11:35.313Z",
-    "end": "2024-06-27T19:18:04.907Z",
-    "duration": 96835,
+    "start": "2024-06-28T18:33:26.446Z",
+    "end": "2024-06-28T18:40:00.476Z",
+    "duration": 98081,
     "testsRegistered": 96,
     "passPercent": 12.5,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "993c468d-166f-4df0-8f07-d21ae43637f5",
+      "uuid": "2f467434-9b34-4066-a1c9-96a42a8dfd31",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\contact_us.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\contact_us.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "221c5bb0-2c1f-4cbd-afa5-52650274563e",
+          "uuid": "0c0e2605-3c8a-4b23-90d7-63bc1a9ff28d",
           "title": "UT : Manager Admin : Contact Us",
           "fullFile": "",
           "file": "",
@@ -51,7 +51,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "0946d8e4-dad0-452b-b6d8-b7871f6685f0",
+              "uuid": "c2167754-ca3e-4a1d-a759-3568953c5c32",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -69,7 +69,7 @@
               "context": null,
               "code": "CONTACT_US.verifyTextsIfContains();",
               "err": {},
-              "uuid": "2f20c16d-f072-4f4d-8de7-07e21dc1abb4",
+              "uuid": "9c4cded1-fa2e-4594-b66d-8c53c0933f91",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -87,7 +87,7 @@
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
-              "uuid": "098c9d75-ccd1-47bc-aaf9-aafcb71976e5",
+              "uuid": "fc6153ad-be97-4aaa-81fa-b61cdad0212b",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -105,7 +105,7 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
-              "uuid": "bb73d5e8-5e5d-4300-823d-d3f3be9d92f3",
+              "uuid": "adae702f-dbc7-48af-bcb2-706f1f48c2ee",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -114,13 +114,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "0946d8e4-dad0-452b-b6d8-b7871f6685f0"
+            "c2167754-ca3e-4a1d-a759-3568953c5c32"
           ],
           "pending": [],
           "skipped": [
-            "2f20c16d-f072-4f4d-8de7-07e21dc1abb4",
-            "098c9d75-ccd1-47bc-aaf9-aafcb71976e5",
-            "bb73d5e8-5e5d-4300-823d-d3f3be9d92f3"
+            "9c4cded1-fa2e-4594-b66d-8c53c0933f91",
+            "fc6153ad-be97-4aaa-81fa-b61cdad0212b",
+            "adae702f-dbc7-48af-bcb2-706f1f48c2ee"
           ],
           "duration": 0,
           "root": false,
@@ -138,7 +138,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "04df2fea-1c77-49e8-b393-14455038d28f",
+      "uuid": "2cfcbfa3-1384-4d8c-bfe0-1e8da84a9d17",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\profile.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\profile.cy.ts",
@@ -147,7 +147,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0684224b-11ae-41f2-98d1-e54883b54231",
+          "uuid": "0ef3d419-70c3-41f2-adde-33a82e735752",
           "title": "UT : Manager Admin : General",
           "fullFile": "",
           "file": "",
@@ -158,7 +158,7 @@
               "title": "Application Menu : Default items should visible",
               "fullTitle": "UT : Manager Admin : General Application Menu : Default items should visible",
               "timedOut": null,
-              "duration": 28973,
+              "duration": 31162,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -171,8 +171,8 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `UT : Manager Admin : General`\n    at cypressErr (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:75625:18)\n    at Object.errByPath (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:75679:10)\n    at checkForXhr (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:135244:84)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:135270:28)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:4315:29)\n    at whenStable (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:143646:68)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:143587:14)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1701:18)\n    at Promise._fulfill (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1645:18)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:5450:46)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:162:19)",
                 "diff": null
               },
-              "uuid": "69df7ff1-2674-45ad-9e38-b71e04c2f8fa",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "f352b4e3-2609-4616-932f-9a3ad614fd94",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": false
             },
@@ -189,8 +189,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('MA');",
               "err": {},
-              "uuid": "5549a45e-7214-4564-b561-c2a52187c759",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "ed0ce25e-1612-4291-b640-1bb54cbb420e",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -207,8 +207,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.favoriteApp('assertAll');",
               "err": {},
-              "uuid": "8ff80145-f3f4-465e-acaf-0c7406d29ba3",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "e46e1a1c-23d2-442d-a4c4-d6a61a5d4636",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -225,8 +225,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nMY_PROFILE.verifyItemsIfExist('UT', 'MA');",
               "err": {},
-              "uuid": "5027ca38-c416-4450-91bb-97d570e14ce2",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "7cc1752d-db9d-4082-a173-1844a12a8cd8",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -243,8 +243,8 @@
               "context": null,
               "code": "MY_PROFILE.verifyTextsIfContains('UT', 'MA');",
               "err": {},
-              "uuid": "619255ce-b6e9-4e4c-aa5d-3f0fc2a78438",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "eb2059d4-8b4d-4f6f-bf61-ecf5c2d55145",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -261,8 +261,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('update_basic_info', 'UT', '');",
               "err": {},
-              "uuid": "879b7be3-8027-442d-8187-a0b1f93e2c04",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "bed2edfb-4139-43ee-9986-11a71bf9a474",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -279,8 +279,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('clear_all_fields', '', '');",
               "err": {},
-              "uuid": "a56aa1b3-3071-4ec2-adf3-fbd0e12f95c7",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "3edf06ea-0512-4c76-8928-5dcbd65d5bad",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -297,8 +297,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('un_matched_password', '', '');",
               "err": {},
-              "uuid": "f8e8c2d9-26e3-45d7-9551-98d4410dc6eb",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "a76ba027-a078-47c0-b739-13f9d704f910",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -315,8 +315,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_phone_number', '', '');",
               "err": {},
-              "uuid": "212481b7-184f-431c-8233-8cbe31140651",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "6d515cef-3926-4640-9e02-524a20d691fb",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_number', '', '');",
               "err": {},
-              "uuid": "318cd4e1-4dbb-4f43-b1e0-8a55ad1e5f5f",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "3a5023c0-2691-41a9-8353-a88b0189c4d4",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_country_code', '', '');",
               "err": {},
-              "uuid": "d07329f4-826e-41bf-b2f1-a02adc487443",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "16e74f48-8a0a-4f20-bdf5-7e77decd974d",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('disable_update_button', '', '');",
               "err": {},
-              "uuid": "e441113c-d107-465d-9552-199cfdd410a8",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "1a750bd7-d53b-4a72-b4b2-cca5890dcdaf",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -387,8 +387,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "a1d3404e-3070-43e0-b0fc-9a5a56a803c4",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "9b140796-019e-49dc-8987-2979e461462d",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -405,8 +405,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "5614ff80-0042-403d-90b8-042dd3826cec",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "7664e211-214c-44f1-8a40-6536b83ef200",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -423,8 +423,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "9d8c02aa-2292-4051-9a28-b76822896c2d",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "eabbfd17-da6f-4e11-a1aa-b6d406a46ded",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -441,8 +441,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "4e830bc0-8760-4bd1-a6ba-d9c79474aa2c",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "700323d1-0413-461c-af11-c2948fb84e9a",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             },
@@ -459,8 +459,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "abf4032f-8fe9-4c5a-9f49-fb49e1e61834",
-              "parentUUID": "0684224b-11ae-41f2-98d1-e54883b54231",
+              "uuid": "94834814-0333-438a-bb6d-1da69ab080bb",
+              "parentUUID": "0ef3d419-70c3-41f2-adde-33a82e735752",
               "isHook": false,
               "skipped": true
             }
@@ -468,28 +468,28 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "69df7ff1-2674-45ad-9e38-b71e04c2f8fa"
+            "f352b4e3-2609-4616-932f-9a3ad614fd94"
           ],
           "pending": [],
           "skipped": [
-            "5549a45e-7214-4564-b561-c2a52187c759",
-            "8ff80145-f3f4-465e-acaf-0c7406d29ba3",
-            "5027ca38-c416-4450-91bb-97d570e14ce2",
-            "619255ce-b6e9-4e4c-aa5d-3f0fc2a78438",
-            "879b7be3-8027-442d-8187-a0b1f93e2c04",
-            "a56aa1b3-3071-4ec2-adf3-fbd0e12f95c7",
-            "f8e8c2d9-26e3-45d7-9551-98d4410dc6eb",
-            "212481b7-184f-431c-8233-8cbe31140651",
-            "318cd4e1-4dbb-4f43-b1e0-8a55ad1e5f5f",
-            "d07329f4-826e-41bf-b2f1-a02adc487443",
-            "e441113c-d107-465d-9552-199cfdd410a8",
-            "a1d3404e-3070-43e0-b0fc-9a5a56a803c4",
-            "5614ff80-0042-403d-90b8-042dd3826cec",
-            "9d8c02aa-2292-4051-9a28-b76822896c2d",
-            "4e830bc0-8760-4bd1-a6ba-d9c79474aa2c",
-            "abf4032f-8fe9-4c5a-9f49-fb49e1e61834"
+            "ed0ce25e-1612-4291-b640-1bb54cbb420e",
+            "e46e1a1c-23d2-442d-a4c4-d6a61a5d4636",
+            "7cc1752d-db9d-4082-a173-1844a12a8cd8",
+            "eb2059d4-8b4d-4f6f-bf61-ecf5c2d55145",
+            "bed2edfb-4139-43ee-9986-11a71bf9a474",
+            "3edf06ea-0512-4c76-8928-5dcbd65d5bad",
+            "a76ba027-a078-47c0-b739-13f9d704f910",
+            "6d515cef-3926-4640-9e02-524a20d691fb",
+            "3a5023c0-2691-41a9-8353-a88b0189c4d4",
+            "16e74f48-8a0a-4f20-bdf5-7e77decd974d",
+            "1a750bd7-d53b-4a72-b4b2-cca5890dcdaf",
+            "9b140796-019e-49dc-8987-2979e461462d",
+            "7664e211-214c-44f1-8a40-6536b83ef200",
+            "eabbfd17-da6f-4e11-a1aa-b6d406a46ded",
+            "700323d1-0413-461c-af11-c2948fb84e9a",
+            "94834814-0333-438a-bb6d-1da69ab080bb"
           ],
-          "duration": 28973,
+          "duration": 31162,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -505,7 +505,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "3ebfcef8-0939-4ca1-9882-c7455d67402f",
+      "uuid": "687fb450-9dda-435e-b8f4-403c618710de",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\reg_codes.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\reg_codes.cy.ts",
@@ -514,7 +514,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+          "uuid": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
           "title": "UT : Add New Managers - Registration codes",
           "fullFile": "",
           "file": "",
@@ -525,7 +525,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Add New Managers - Registration codes Default items should visible",
               "timedOut": null,
-              "duration": 3260,
+              "duration": 3096,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -534,8 +534,8 @@
               "context": null,
               "code": "NEW_USER.register('default_items', null);",
               "err": {},
-              "uuid": "cd3414c4-c0d4-4310-b036-5827146ad727",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "c30004b2-71c8-489a-98ba-5ae7aaa89ade",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -543,7 +543,7 @@
               "title": "Validate successful new user account creation",
               "fullTitle": "UT : Add New Managers - Registration codes Validate successful new user account creation",
               "timedOut": null,
-              "duration": 14248,
+              "duration": 14071,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -552,8 +552,8 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'success_creation');",
               "err": {},
-              "uuid": "0b325003-8b2a-45d2-90a6-84f42c4b3b32",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "b7b7346f-58ee-41bf-8b83-e4064ad11af0",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -561,7 +561,7 @@
               "title": "Validate existing user",
               "fullTitle": "UT : Add New Managers - Registration codes Validate existing user",
               "timedOut": null,
-              "duration": 6370,
+              "duration": 6400,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -570,8 +570,8 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'already_exist');",
               "err": {},
-              "uuid": "e53ee084-2266-4fb6-b3f0-20177064d443",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "fe306a6f-0f89-49a3-95e2-03e94923ea47",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -579,7 +579,7 @@
               "title": "Validate cancel adding new user",
               "fullTitle": "UT : Add New Managers - Registration codes Validate cancel adding new user",
               "timedOut": null,
-              "duration": 223,
+              "duration": 231,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -588,8 +588,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('cancel_creating_user', null);",
               "err": {},
-              "uuid": "6f0304c1-682f-4bc3-b78b-8c0e782bf349",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "474c0bab-8754-489c-81a3-d7e626a5d1fb",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -597,7 +597,7 @@
               "title": "Check field validations",
               "fullTitle": "UT : Add New Managers - Registration codes Check field validations",
               "timedOut": null,
-              "duration": 1724,
+              "duration": 1686,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -606,8 +606,8 @@
               "context": null,
               "code": "NEW_USER.register('disable_submit_button', null);",
               "err": {},
-              "uuid": "9a699879-bf82-4003-b7a8-598a79259d8d",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "0371af01-c080-4aae-acad-4e1a9c2cfe68",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -615,7 +615,7 @@
               "title": "Validate matching email and confirm email fields",
               "fullTitle": "UT : Add New Managers - Registration codes Validate matching email and confirm email fields",
               "timedOut": null,
-              "duration": 5365,
+              "duration": 5367,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -624,8 +624,8 @@
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'email_not_matched');",
               "err": {},
-              "uuid": "f8b0ea80-5db3-4f79-949a-9cbdf80727f7",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "5c59d1fa-a213-4b56-9dcd-92395871029d",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -633,7 +633,7 @@
               "title": "Validate matching password and verify password fields",
               "fullTitle": "UT : Add New Managers - Registration codes Validate matching password and verify password fields",
               "timedOut": null,
-              "duration": 4500,
+              "duration": 4534,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -642,8 +642,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('validation_fields', 'passwords_not_matched');",
               "err": {},
-              "uuid": "7026f777-fe9c-4d69-98b5-c179222ff2a9",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "b97115e7-236c-4675-9fed-bdf8097ac290",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -651,7 +651,7 @@
               "title": "Create account : Validate Password Strength - risk",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - risk",
               "timedOut": null,
-              "duration": 420,
+              "duration": 421,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -660,8 +660,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "24980760-f477-4343-bcf5-e8efa9870627",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "6ec2df1b-564d-4a9c-9ad8-fc69d09719de",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -678,8 +678,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "2b4d3e55-ab0c-4b73-9d0d-5512d483d440",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "5e82d5a3-a647-4294-92e0-a9dd103a60ed",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -687,7 +687,7 @@
               "title": "Create account : Validate Password Strength - fair",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - fair",
               "timedOut": null,
-              "duration": 503,
+              "duration": 504,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -696,8 +696,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "06305f3e-9907-4f2a-87d1-5af71853256f",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "55610d40-a162-41cd-b5ba-5b3279a9af6d",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -705,7 +705,7 @@
               "title": "Create account : Validate Password Strength - good",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - good",
               "timedOut": null,
-              "duration": 527,
+              "duration": 526,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -714,8 +714,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "18e8f0f0-f4a8-481f-8673-e28a1a9952c9",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "b9eff979-ad33-411e-811f-6e96dd313048",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             },
@@ -723,7 +723,7 @@
               "title": "Create account : Validate Password Strength - strong",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - strong",
               "timedOut": null,
-              "duration": 647,
+              "duration": 699,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -732,31 +732,31 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "2e7c32d1-8d7e-4d45-bf0a-8285265f5c0c",
-              "parentUUID": "2c047054-1b02-41fe-b8b1-0fa0467ae63b",
+              "uuid": "f84b031d-b6a2-4614-b19e-66e3e3d13db1",
+              "parentUUID": "fd1c9cda-59c9-4ed7-a847-00f223fe3c00",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "cd3414c4-c0d4-4310-b036-5827146ad727",
-            "0b325003-8b2a-45d2-90a6-84f42c4b3b32",
-            "e53ee084-2266-4fb6-b3f0-20177064d443",
-            "6f0304c1-682f-4bc3-b78b-8c0e782bf349",
-            "9a699879-bf82-4003-b7a8-598a79259d8d",
-            "f8b0ea80-5db3-4f79-949a-9cbdf80727f7",
-            "7026f777-fe9c-4d69-98b5-c179222ff2a9",
-            "24980760-f477-4343-bcf5-e8efa9870627",
-            "2b4d3e55-ab0c-4b73-9d0d-5512d483d440",
-            "06305f3e-9907-4f2a-87d1-5af71853256f",
-            "18e8f0f0-f4a8-481f-8673-e28a1a9952c9",
-            "2e7c32d1-8d7e-4d45-bf0a-8285265f5c0c"
+            "c30004b2-71c8-489a-98ba-5ae7aaa89ade",
+            "b7b7346f-58ee-41bf-8b83-e4064ad11af0",
+            "fe306a6f-0f89-49a3-95e2-03e94923ea47",
+            "474c0bab-8754-489c-81a3-d7e626a5d1fb",
+            "0371af01-c080-4aae-acad-4e1a9c2cfe68",
+            "5c59d1fa-a213-4b56-9dcd-92395871029d",
+            "b97115e7-236c-4675-9fed-bdf8097ac290",
+            "6ec2df1b-564d-4a9c-9ad8-fc69d09719de",
+            "5e82d5a3-a647-4294-92e0-a9dd103a60ed",
+            "55610d40-a162-41cd-b5ba-5b3279a9af6d",
+            "b9eff979-ad33-411e-811f-6e96dd313048",
+            "f84b031d-b6a2-4614-b19e-66e3e3d13db1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 38250,
+          "duration": 37998,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -772,203 +772,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "cfbd8324-9286-425b-8360-664208473107",
-      "title": "",
-      "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-dashboard\\manager_admin_training.cy.ts",
-      "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-dashboard\\manager_admin_training.cy.ts",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "bea0ccc9-43df-4aab-bd7e-964d40cd802d",
-          "title": "UT : Manager Admin : Dashboard : Training",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Default items should visible",
-              "fullTitle": "UT : Manager Admin : Dashboard : Training Default items should visible",
-              "timedOut": null,
-              "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('default_items');",
-              "err": {
-                "message": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
-                "diff": null
-              },
-              "uuid": "f5560a36-bfd9-4698-b175-f9c2dd663fd1",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Check texts/labels if visible",
-              "fullTitle": "UT : Manager Admin : Dashboard : Training Check texts/labels if visible",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('default_texts');",
-              "err": {},
-              "uuid": "00ca6c11-3519-4610-8f27-bbc2dce5aa67",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate Cybersecurity Training Videos",
-              "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Cybersecurity Training Videos",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('security_training_videos');",
-              "err": {},
-              "uuid": "64e51e66-9108-43be-b0ba-132a7db87b3f",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate Optional Manager Training",
-              "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Optional Manager Training",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('training_videos');",
-              "err": {},
-              "uuid": "6d374f95-88bb-4351-a6dc-333dd1081eba",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Training (EDGE) : Validate Security Quiz",
-              "fullTitle": "UT : Manager Admin : Dashboard : Training Training (EDGE) : Validate Security Quiz",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('complete_security_quiz');",
-              "err": {},
-              "uuid": "3ab62215-4379-4078-ac21-30f21e6b1230",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Training (EDGE) : Validate Reviewing Security Quiz",
-              "fullTitle": "UT : Manager Admin : Dashboard : Training Training (EDGE) : Validate Reviewing Security Quiz",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('review_security_quiz');",
-              "err": {},
-              "uuid": "b371943e-ffd7-42e4-9b8c-d4704bdf0de1",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Training : Validate Step 3 - Print Your Certificate",
-              "fullTitle": "UT : Manager Admin : Dashboard : Training Training : Validate Step 3 - Print Your Certificate",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.completedCourses('print_certificate');",
-              "err": {},
-              "uuid": "e3e637b8-66be-4e97-9afb-1e5c90951f87",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate Enrolled Courses",
-              "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Enrolled Courses",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "TRAINING.enrolledCourses();",
-              "err": {},
-              "uuid": "47fbf533-ef20-4f67-b428-62af42c883dc",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            }
-          ],
-          "suites": [],
-          "passes": [],
-          "failures": [
-            "f5560a36-bfd9-4698-b175-f9c2dd663fd1"
-          ],
-          "pending": [],
-          "skipped": [
-            "00ca6c11-3519-4610-8f27-bbc2dce5aa67",
-            "64e51e66-9108-43be-b0ba-132a7db87b3f",
-            "6d374f95-88bb-4351-a6dc-333dd1081eba",
-            "3ab62215-4379-4078-ac21-30f21e6b1230",
-            "b371943e-ffd7-42e4-9b8c-d4704bdf0de1",
-            "e3e637b8-66be-4e97-9afb-1e5c90951f87",
-            "47fbf533-ef20-4f67-b428-62af42c883dc"
-          ],
-          "duration": 0,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "73f08e08-0206-4d29-acf6-cca1518812f2",
+      "uuid": "1b3e0cc2-c6ab-40d7-84ae-f7e8c3a139ed",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\company_dark_web.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\company_dark_web.cy.ts",
@@ -977,7 +781,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "55a65474-3b31-4b0e-a97c-f4fd7d5af3f5",
+          "uuid": "139d4606-faf7-413d-b4b9-646ec08ba57c",
           "title": "UT : Manager Admin : Company : Dark Web Monitoring",
           "fullFile": "",
           "file": "",
@@ -1001,7 +805,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "a274b7ba-69c5-404a-844f-9336df5573a1",
+              "uuid": "96af3b60-ce66-4425-a567-b73afed0df87",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1019,7 +823,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('text_contains');",
               "err": {},
-              "uuid": "5e5bdd04-86da-44db-99ea-723698b35591",
+              "uuid": "f2fc3c5a-22f9-4cd8-8a0a-f4755c314d5e",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1037,7 +841,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('api_report');",
               "err": {},
-              "uuid": "d0b13f24-859c-48c3-af79-482ea7262a57",
+              "uuid": "b5eb9b4b-abe7-47c6-84cb-9ae8594c2e82",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1055,7 +859,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');",
               "err": {},
-              "uuid": "2d1b9a78-ab26-4624-9118-f312c4964ac6",
+              "uuid": "0a274666-7f7e-4317-a961-83bd8fc9533e",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1073,7 +877,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('refresh_session_event');",
               "err": {},
-              "uuid": "671a23fd-db07-4c4e-a7a0-ea7f1cde7e12",
+              "uuid": "a3e13b0a-a85a-4cd8-8f0a-afd1debdc025",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1091,7 +895,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_unregistered_domains');",
               "err": {},
-              "uuid": "85b2df09-f0d9-479d-bd95-3f41bed25bed",
+              "uuid": "721f0d92-1b79-4fe9-a890-fdafddbc8294",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1109,7 +913,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_unlisted_site_breached');",
               "err": {},
-              "uuid": "7e564ad2-ce10-4e09-b831-287b4fa2a4bc",
+              "uuid": "1b593a5b-6c14-421f-8ae2-d3840a329cfd",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1127,7 +931,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_breach_date');",
               "err": {},
-              "uuid": "97544065-ca7e-4af2-843c-39c757e30308",
+              "uuid": "0e9a5f8f-1bf5-4cdf-aa40-94a4dd7c2ca7",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1145,7 +949,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('obfuscate_password');",
               "err": {},
-              "uuid": "d36ab7d7-3fa0-4706-a2ba-2da8615e2a6c",
+              "uuid": "df60a8f8-0fc6-4ddf-9f57-56ae9f0d0a28",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1163,7 +967,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('non_redacted_password');",
               "err": {},
-              "uuid": "84aafb97-421f-4bdc-a987-ba57530710bd",
+              "uuid": "eae7c74a-aabe-452c-a6d3-8d2c3a6a534f",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1181,7 +985,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('column_sorting');",
               "err": {},
-              "uuid": "c672d20c-df96-4334-98b1-79d2cb05f898",
+              "uuid": "5fb436e2-a6b7-4e2f-b770-9f7de90326eb",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1190,20 +994,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "a274b7ba-69c5-404a-844f-9336df5573a1"
+            "96af3b60-ce66-4425-a567-b73afed0df87"
           ],
           "pending": [],
           "skipped": [
-            "5e5bdd04-86da-44db-99ea-723698b35591",
-            "d0b13f24-859c-48c3-af79-482ea7262a57",
-            "2d1b9a78-ab26-4624-9118-f312c4964ac6",
-            "671a23fd-db07-4c4e-a7a0-ea7f1cde7e12",
-            "85b2df09-f0d9-479d-bd95-3f41bed25bed",
-            "7e564ad2-ce10-4e09-b831-287b4fa2a4bc",
-            "97544065-ca7e-4af2-843c-39c757e30308",
-            "d36ab7d7-3fa0-4706-a2ba-2da8615e2a6c",
-            "84aafb97-421f-4bdc-a987-ba57530710bd",
-            "c672d20c-df96-4334-98b1-79d2cb05f898"
+            "f2fc3c5a-22f9-4cd8-8a0a-f4755c314d5e",
+            "b5eb9b4b-abe7-47c6-84cb-9ae8594c2e82",
+            "0a274666-7f7e-4317-a961-83bd8fc9533e",
+            "a3e13b0a-a85a-4cd8-8f0a-afd1debdc025",
+            "721f0d92-1b79-4fe9-a890-fdafddbc8294",
+            "1b593a5b-6c14-421f-8ae2-d3840a329cfd",
+            "0e9a5f8f-1bf5-4cdf-aa40-94a4dd7c2ca7",
+            "df60a8f8-0fc6-4ddf-9f57-56ae9f0d0a28",
+            "eae7c74a-aabe-452c-a6d3-8d2c3a6a534f",
+            "5fb436e2-a6b7-4e2f-b770-9f7de90326eb"
           ],
           "duration": 0,
           "root": false,
@@ -1221,7 +1025,203 @@
       "_timeout": 2000
     },
     {
-      "uuid": "95f18128-7b15-46d6-9613-9f375ca71402",
+      "uuid": "0267412c-4423-4668-b23e-570de79338f5",
+      "title": "",
+      "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-dashboard\\manager_admin_training.cy.ts",
+      "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-dashboard\\manager_admin_training.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9e6376b2-26ff-4a85-89c7-8366bf97df35",
+          "title": "UT : Manager Admin : Dashboard : Training",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Default items should visible",
+              "fullTitle": "UT : Manager Admin : Dashboard : Training Default items should visible",
+              "timedOut": null,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "TRAINING.completedCourses('default_items');",
+              "err": {
+                "message": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
+                "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
+                "diff": null
+              },
+              "uuid": "3eb02c5b-0d69-4e1e-b4a2-f0344ca6edd3",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check texts/labels if visible",
+              "fullTitle": "UT : Manager Admin : Dashboard : Training Check texts/labels if visible",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "TRAINING.completedCourses('default_texts');",
+              "err": {},
+              "uuid": "b1ec2cdb-6ff7-462e-91cd-0c2f38baa407",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate Cybersecurity Training Videos",
+              "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Cybersecurity Training Videos",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "TRAINING.completedCourses('security_training_videos');",
+              "err": {},
+              "uuid": "5a688ca9-cf4f-4e68-b6c7-339eda71eed5",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate Optional Manager Training",
+              "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Optional Manager Training",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "TRAINING.completedCourses('training_videos');",
+              "err": {},
+              "uuid": "f50d6da9-7fea-43fa-a70c-b59e692ffafd",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Training (EDGE) : Validate Security Quiz",
+              "fullTitle": "UT : Manager Admin : Dashboard : Training Training (EDGE) : Validate Security Quiz",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "TRAINING.completedCourses('complete_security_quiz');",
+              "err": {},
+              "uuid": "f80ddaf8-d613-41e1-a595-fceebdd4f5ba",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Training (EDGE) : Validate Reviewing Security Quiz",
+              "fullTitle": "UT : Manager Admin : Dashboard : Training Training (EDGE) : Validate Reviewing Security Quiz",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "TRAINING.completedCourses('review_security_quiz');",
+              "err": {},
+              "uuid": "282582fd-086d-460a-a322-3b5fdd8c2c60",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Training : Validate Step 3 - Print Your Certificate",
+              "fullTitle": "UT : Manager Admin : Dashboard : Training Training : Validate Step 3 - Print Your Certificate",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "TRAINING.completedCourses('print_certificate');",
+              "err": {},
+              "uuid": "f2fa4888-ea3f-4390-9520-3ce8518b45a4",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate Enrolled Courses",
+              "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Enrolled Courses",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "TRAINING.enrolledCourses();",
+              "err": {},
+              "uuid": "2935bf14-03ac-4f7a-a36c-4dfd0f53ae32",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "3eb02c5b-0d69-4e1e-b4a2-f0344ca6edd3"
+          ],
+          "pending": [],
+          "skipped": [
+            "b1ec2cdb-6ff7-462e-91cd-0c2f38baa407",
+            "5a688ca9-cf4f-4e68-b6c7-339eda71eed5",
+            "f50d6da9-7fea-43fa-a70c-b59e692ffafd",
+            "f80ddaf8-d613-41e1-a595-fceebdd4f5ba",
+            "282582fd-086d-460a-a322-3b5fdd8c2c60",
+            "f2fa4888-ea3f-4390-9520-3ce8518b45a4",
+            "2935bf14-03ac-4f7a-a36c-4dfd0f53ae32"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "cf115bfe-c6c3-452a-b520-73ba059d3aae",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\training-reports\\annual.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\training-reports\\annual.cy.ts",
@@ -1230,7 +1230,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3e772218-a931-4900-a71a-b4e6495bb9da",
+          "uuid": "3e6c675a-db0f-4e20-afbf-e251405660b2",
           "title": "UT : Manager Admin : Company : Training Reports : Annual",
           "fullFile": "",
           "file": "",
@@ -1254,7 +1254,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "cf180885-5958-4c14-9265-4a29bfea17e0",
+              "uuid": "9023e304-0a4a-4ec5-8f02-544bc148d237",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1272,7 +1272,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2023 Cybersecurity Training');",
               "err": {},
-              "uuid": "7904ac62-66ae-4f32-aac6-37e777c9e8a6",
+              "uuid": "3f781142-3ec3-4121-b01f-7265ccc32fc1",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1290,7 +1290,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2023 Cyber Manager Training');",
               "err": {},
-              "uuid": "a87a6b9f-820a-4bcd-ab45-1d18d4d8ed83",
+              "uuid": "498a9dd3-db52-4e34-be4a-b8e7a5e5a8e0",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1308,7 +1308,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2022 Cybersecurity Training');",
               "err": {},
-              "uuid": "a7897a1a-cef4-4b6e-805f-f203ac41fe84",
+              "uuid": "88729430-fd62-499c-a16e-bf42901ca627",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1326,7 +1326,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2023 Cybersecurity Training');",
               "err": {},
-              "uuid": "d152e4d0-b004-49e6-b569-6a62f477a165",
+              "uuid": "d6d1765a-d0ff-4b7b-abe2-93e5ce821fcb",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1344,7 +1344,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2023 Cyber Manager Training');",
               "err": {},
-              "uuid": "8c6cbdb1-1363-4b7e-9ede-d9b1df91df96",
+              "uuid": "509413ff-895f-41e7-b980-e4c57d1b05f1",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1362,7 +1362,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2022 Cybersecurity Training');",
               "err": {},
-              "uuid": "18b13cd5-5c02-4bc9-b4c5-3dbf53e39b98",
+              "uuid": "71fec030-af37-4584-9635-915f21a8cea4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1380,7 +1380,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-selected-training-report', '');",
               "err": {},
-              "uuid": "fada6883-0e66-4aeb-9c25-b17a7e194b0c",
+              "uuid": "49c48a0f-79bb-4167-bf8c-490339a17a40",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1398,7 +1398,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('search-existing-user', '');",
               "err": {},
-              "uuid": "df486b42-c19b-4ccd-9b99-3b5c248799e2",
+              "uuid": "15b7ffb9-49b5-4cd2-98e1-ba266c383354",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1416,7 +1416,7 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('search-non-existing-user', '');",
               "err": {},
-              "uuid": "9948ee0a-e373-419b-b35f-545bb4f3243f",
+              "uuid": "cfb5e2d3-9d48-4b1e-9acc-e91c918d1440",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1425,19 +1425,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "cf180885-5958-4c14-9265-4a29bfea17e0"
+            "9023e304-0a4a-4ec5-8f02-544bc148d237"
           ],
           "pending": [],
           "skipped": [
-            "7904ac62-66ae-4f32-aac6-37e777c9e8a6",
-            "a87a6b9f-820a-4bcd-ab45-1d18d4d8ed83",
-            "a7897a1a-cef4-4b6e-805f-f203ac41fe84",
-            "d152e4d0-b004-49e6-b569-6a62f477a165",
-            "8c6cbdb1-1363-4b7e-9ede-d9b1df91df96",
-            "18b13cd5-5c02-4bc9-b4c5-3dbf53e39b98",
-            "fada6883-0e66-4aeb-9c25-b17a7e194b0c",
-            "df486b42-c19b-4ccd-9b99-3b5c248799e2",
-            "9948ee0a-e373-419b-b35f-545bb4f3243f"
+            "3f781142-3ec3-4121-b01f-7265ccc32fc1",
+            "498a9dd3-db52-4e34-be4a-b8e7a5e5a8e0",
+            "88729430-fd62-499c-a16e-bf42901ca627",
+            "d6d1765a-d0ff-4b7b-abe2-93e5ce821fcb",
+            "509413ff-895f-41e7-b980-e4c57d1b05f1",
+            "71fec030-af37-4584-9635-915f21a8cea4",
+            "49c48a0f-79bb-4167-bf8c-490339a17a40",
+            "15b7ffb9-49b5-4cd2-98e1-ba266c383354",
+            "cfb5e2d3-9d48-4b1e-9acc-e91c918d1440"
           ],
           "duration": 0,
           "root": false,
@@ -1455,7 +1455,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "1d3d4d0c-502a-468e-95c1-f9a292edf9bd",
+      "uuid": "354bd2b8-c404-432b-8843-43d157923cca",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\employees.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\employees.cy.ts",
@@ -1464,7 +1464,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "63f4f993-84b5-442a-b8ec-6ab669cdac31",
+          "uuid": "a5a3f76c-80cb-4433-8d41-7c56538a3093",
           "title": "UT : Manager Admin : Company : Employee",
           "fullFile": "",
           "file": "",
@@ -1488,7 +1488,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "2b8df5d3-a633-4e5f-8b2c-14242a10d113",
+              "uuid": "ff2484c6-dfa0-4043-ae24-1a30ecd13ed5",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1506,7 +1506,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('search', 'MANAGER-ADMIN', 'employees');",
               "err": {},
-              "uuid": "76aa2241-7367-49ea-8e1e-cd872ffc5381",
+              "uuid": "9792e9ad-529b-423d-82b1-3a7f6fda91e7",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1524,7 +1524,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'MANAGER-ADMIN', 'employees');",
               "err": {},
-              "uuid": "f5ebde35-6380-4489-b36e-323eccded833",
+              "uuid": "b1c2298a-e1f3-42b8-a9af-1e65baef6bba",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1542,7 +1542,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'MANAGER-ADMIN', 'employees');",
               "err": {},
-              "uuid": "55cb629d-b18c-4c0f-8865-1a025325cf9e",
+              "uuid": "ef45d3e9-4700-4e34-9d8c-3881184814c2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1560,7 +1560,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'MANAGER', 'employees');",
               "err": {},
-              "uuid": "44c004db-9eda-464e-ab24-314dd3e1792b",
+              "uuid": "10bfd1a8-9b7d-44a9-a57c-3c9c89652acd",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1578,7 +1578,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('search', 'MANAGER', 'employees');",
               "err": {},
-              "uuid": "627a03f4-60ae-47a9-b9f9-fcc1b0e9eea1",
+              "uuid": "23a4b60b-41a2-47b1-8029-7ce8333356f8",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1596,7 +1596,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'MANAGER', 'employees');",
               "err": {},
-              "uuid": "a21070e5-2ecc-4b3e-acd6-a2ca825f8c9c",
+              "uuid": "51453f58-d6a4-497b-9b5b-524e9ed2d282",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1614,7 +1614,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'MANAGER', 'employees');",
               "err": {},
-              "uuid": "65653143-53b3-4558-8a30-bd60e60b9c8b",
+              "uuid": "cd2b6cbc-dff3-43b7-8b1e-bdceacbb2ea9",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1632,7 +1632,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'EMPLOYEE', 'employees');",
               "err": {},
-              "uuid": "3834b777-5f17-4ecf-bf72-7156fc86dd1b",
+              "uuid": "e379c42a-d658-438f-9029-31a5543d010d",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1650,7 +1650,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('search', 'EMPLOYEE', 'employees');",
               "err": {},
-              "uuid": "c317580f-6d65-499b-bd66-c562f9e15411",
+              "uuid": "0ca65dd0-8ec3-47bd-9694-44029ead8bfc",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1668,7 +1668,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'EMPLOYEE', 'employees');",
               "err": {},
-              "uuid": "8ed6e3c9-19bd-4239-bd57-243e374ba8c1",
+              "uuid": "eee9031b-1f57-47c3-831f-4b63f1b29697",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1686,7 +1686,7 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'EMPLOYEE', 'employees');",
               "err": {},
-              "uuid": "ea5b73d7-e579-44a9-9b7c-afeb78210153",
+              "uuid": "5fe636a7-eefc-4b1d-b794-1c353ad412ed",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1704,7 +1704,7 @@
               "context": null,
               "code": "EMPLOYEES.searchScenarios('unregistered-user', 'employees');",
               "err": {},
-              "uuid": "459f12a0-52f0-4e7d-b109-7e81e1b772ca",
+              "uuid": "d3166612-4b8e-4099-85e8-feab57a6e616",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1722,7 +1722,7 @@
               "context": null,
               "code": "EMPLOYEES.welcomeMessage('enable', 'employees');",
               "err": {},
-              "uuid": "6f3f289e-4ece-43b0-8138-bc24ea967bfa",
+              "uuid": "ff0a10cf-fd26-4bde-9d30-3cd4812a415f",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1740,7 +1740,7 @@
               "context": null,
               "code": "EMPLOYEES.welcomeMessage('disable', 'employees');",
               "err": {},
-              "uuid": "ee09ec0d-e2b9-4dc7-bdb0-82bb54a56ffb",
+              "uuid": "f259f27e-d80d-489e-abf7-72ded1ca0e85",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1749,24 +1749,24 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "2b8df5d3-a633-4e5f-8b2c-14242a10d113"
+            "ff2484c6-dfa0-4043-ae24-1a30ecd13ed5"
           ],
           "pending": [],
           "skipped": [
-            "76aa2241-7367-49ea-8e1e-cd872ffc5381",
-            "f5ebde35-6380-4489-b36e-323eccded833",
-            "55cb629d-b18c-4c0f-8865-1a025325cf9e",
-            "44c004db-9eda-464e-ab24-314dd3e1792b",
-            "627a03f4-60ae-47a9-b9f9-fcc1b0e9eea1",
-            "a21070e5-2ecc-4b3e-acd6-a2ca825f8c9c",
-            "65653143-53b3-4558-8a30-bd60e60b9c8b",
-            "3834b777-5f17-4ecf-bf72-7156fc86dd1b",
-            "c317580f-6d65-499b-bd66-c562f9e15411",
-            "8ed6e3c9-19bd-4239-bd57-243e374ba8c1",
-            "ea5b73d7-e579-44a9-9b7c-afeb78210153",
-            "459f12a0-52f0-4e7d-b109-7e81e1b772ca",
-            "6f3f289e-4ece-43b0-8138-bc24ea967bfa",
-            "ee09ec0d-e2b9-4dc7-bdb0-82bb54a56ffb"
+            "9792e9ad-529b-423d-82b1-3a7f6fda91e7",
+            "b1c2298a-e1f3-42b8-a9af-1e65baef6bba",
+            "ef45d3e9-4700-4e34-9d8c-3881184814c2",
+            "10bfd1a8-9b7d-44a9-a57c-3c9c89652acd",
+            "23a4b60b-41a2-47b1-8029-7ce8333356f8",
+            "51453f58-d6a4-497b-9b5b-524e9ed2d282",
+            "cd2b6cbc-dff3-43b7-8b1e-bdceacbb2ea9",
+            "e379c42a-d658-438f-9029-31a5543d010d",
+            "0ca65dd0-8ec3-47bd-9694-44029ead8bfc",
+            "eee9031b-1f57-47c3-831f-4b63f1b29697",
+            "5fe636a7-eefc-4b1d-b794-1c353ad412ed",
+            "d3166612-4b8e-4099-85e8-feab57a6e616",
+            "ff0a10cf-fd26-4bde-9d30-3cd4812a415f",
+            "f259f27e-d80d-489e-abf7-72ded1ca0e85"
           ],
           "duration": 0,
           "root": false,
@@ -1784,7 +1784,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "8b85e687-d65e-4701-9839-c0851f53aa71",
+      "uuid": "f646ce53-b380-41d3-8e94-0dbf5bae5adf",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\mfa.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\mfa.cy.ts",
@@ -1793,7 +1793,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7659fae2-ce38-4cea-97ae-49926384a96e",
+          "uuid": "7f142f18-d1d7-4970-93a9-20bd79da717b",
           "title": "UT : Manager Admin : My Company : Employee Management : MFA",
           "fullFile": "",
           "file": "",
@@ -1817,7 +1817,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "ad2e34b3-cc99-4fad-8f7e-21156128f7f1",
+              "uuid": "3e2c79fc-f5dc-4024-ad8e-1ee2a94c9889",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1835,7 +1835,7 @@
               "context": null,
               "code": "EMPLOYEES.MFA('status dialog settings', 'employees');",
               "err": {},
-              "uuid": "4a349ef9-b2b5-4ebd-99d7-e1824ba59485",
+              "uuid": "af4f8112-31e8-4664-8894-f7e1bf204165",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1844,11 +1844,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "ad2e34b3-cc99-4fad-8f7e-21156128f7f1"
+            "3e2c79fc-f5dc-4024-ad8e-1ee2a94c9889"
           ],
           "pending": [],
           "skipped": [
-            "4a349ef9-b2b5-4ebd-99d7-e1824ba59485"
+            "af4f8112-31e8-4664-8894-f7e1bf204165"
           ],
           "duration": 0,
           "root": false,
@@ -1866,7 +1866,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "33c778cb-6b93-4519-abbf-dce378563ac5",
+      "uuid": "a5df2e1a-c4c9-4fb9-aa2f-8e0294f31688",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\single_sign_on.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\single_sign_on.cy.ts",
@@ -1875,7 +1875,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "baa731d7-6a44-4ea5-a6ad-ad529e309384",
+          "uuid": "09d70056-45e6-4ea3-9641-c181fd9fb774",
           "title": "UT : Manager Admin : My Company : Employee Management : Single Sign On",
           "fullFile": "",
           "file": "",
@@ -1886,7 +1886,7 @@
               "title": "Validate employees single-sign-on status",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate employees single-sign-on status",
               "timedOut": null,
-              "duration": 29612,
+              "duration": 28921,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1899,7 +1899,7 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:75625:18)\n    at Object.errByPath (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:75679:10)\n    at checkForXhr (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:135244:84)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:135270:28)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:4315:29)\n    at whenStable (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:143646:68)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:143587:14)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1701:18)\n    at Promise._fulfill (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:1645:18)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:5450:46)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:162:19)",
                 "diff": null
               },
-              "uuid": "afc54bfa-a821-4d9a-9aeb-2ec9f088e64c",
+              "uuid": "40488cec-c483-40cf-88ad-c1c9dbc4975d",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1917,7 +1917,7 @@
               "context": null,
               "code": "EMPLOYEES.federation('dialog providers', 'employees');",
               "err": {},
-              "uuid": "0f683e54-96fe-4db5-b8cb-df431731d745",
+              "uuid": "21bbbe59-5f6f-411a-ad83-6a40a4359037",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1935,7 +1935,7 @@
               "context": null,
               "code": "EMPLOYEES.federation('microsoft', 'employees');",
               "err": {},
-              "uuid": "295533cd-6aba-4ede-b087-bf8391f02e40",
+              "uuid": "c05e10f5-6404-42ee-9c40-c41951173a95",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1953,7 +1953,7 @@
               "context": null,
               "code": "EMPLOYEES.federation('google', 'employees');",
               "err": {},
-              "uuid": "fba24ce7-6f01-4378-8043-45bf9b6aa8dc",
+              "uuid": "2a3ce1f1-887b-4c73-ad16-895525e8deb5",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1971,7 +1971,7 @@
               "context": null,
               "code": "EMPLOYEES.federation('okta', 'employees');",
               "err": {},
-              "uuid": "633deaa8-54a9-4a30-ab7a-47d32cd6e98a",
+              "uuid": "b3b46999-8fd8-4fb0-95b2-e6ad9a7b3445",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1989,7 +1989,7 @@
               "context": null,
               "code": "EMPLOYEES.federation('single tenant', 'employees');",
               "err": {},
-              "uuid": "ed05f07b-6c65-4035-80ad-c5c4927a2f7c",
+              "uuid": "cec91560-9601-407b-be5d-396c3b309619",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2007,7 +2007,7 @@
               "context": null,
               "code": "EMPLOYEES.federation('field validation', 'employees');",
               "err": {},
-              "uuid": "33be5dea-a231-4e21-8a3a-0d84ffae47ae",
+              "uuid": "cde5baa3-582a-4037-acec-92da9aaaa44a",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2025,7 +2025,7 @@
               "context": null,
               "code": "EMPLOYEES.federation('copy APP ID url', 'employees');",
               "err": {},
-              "uuid": "e3e7aee5-a06a-4f99-a086-6ecb14611d41",
+              "uuid": "a0143cb8-d92a-4700-aec9-f8a58984e8d7",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2043,7 +2043,7 @@
               "context": null,
               "code": "EMPLOYEES.federation('copy redirect url', 'employees');",
               "err": {},
-              "uuid": "1ee702b7-4cad-4234-98af-9b86099d4150",
+              "uuid": "d8efcddc-5505-46e6-8671-83f0fca753c9",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2052,20 +2052,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "afc54bfa-a821-4d9a-9aeb-2ec9f088e64c"
+            "40488cec-c483-40cf-88ad-c1c9dbc4975d"
           ],
           "pending": [],
           "skipped": [
-            "0f683e54-96fe-4db5-b8cb-df431731d745",
-            "295533cd-6aba-4ede-b087-bf8391f02e40",
-            "fba24ce7-6f01-4378-8043-45bf9b6aa8dc",
-            "633deaa8-54a9-4a30-ab7a-47d32cd6e98a",
-            "ed05f07b-6c65-4035-80ad-c5c4927a2f7c",
-            "33be5dea-a231-4e21-8a3a-0d84ffae47ae",
-            "e3e7aee5-a06a-4f99-a086-6ecb14611d41",
-            "1ee702b7-4cad-4234-98af-9b86099d4150"
+            "21bbbe59-5f6f-411a-ad83-6a40a4359037",
+            "c05e10f5-6404-42ee-9c40-c41951173a95",
+            "2a3ce1f1-887b-4c73-ad16-895525e8deb5",
+            "b3b46999-8fd8-4fb0-95b2-e6ad9a7b3445",
+            "cec91560-9601-407b-be5d-396c3b309619",
+            "cde5baa3-582a-4037-acec-92da9aaaa44a",
+            "a0143cb8-d92a-4700-aec9-f8a58984e8d7",
+            "d8efcddc-5505-46e6-8671-83f0fca753c9"
           ],
-          "duration": 29612,
+          "duration": 28921,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -2081,7 +2081,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "11513165-db55-4ce8-92d7-4ca09881d147",
+      "uuid": "89e212e0-e92c-4009-a504-e3399ecabd51",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\tags.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\tags.cy.ts",
@@ -2090,7 +2090,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "81962593-6fe6-4973-a374-f3ad5dfbc088",
+          "uuid": "6262aa28-4d28-4321-a833-2165d4449f08",
           "title": "UT : Manager Admin : My Company : Tags",
           "fullFile": "",
           "file": "",
@@ -2114,7 +2114,7 @@
                 "estack": "TypeError: Cannot read properties of undefined (reading 'response')\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:23:28)",
                 "diff": null
               },
-              "uuid": "7379569b-c46e-4d54-936a-8ef074bcc280",
+              "uuid": "ca8d5a6b-0e80-4d74-9877-4f427af1a872",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -2132,7 +2132,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-create-new-tag', 'employees');",
               "err": {},
-              "uuid": "08bcb2d2-3f83-4ed0-b960-4f516de99716",
+              "uuid": "cd3efb92-17d0-426b-9068-600a040224fd",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2150,7 +2150,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-update-created-tag', 'employees');",
               "err": {},
-              "uuid": "36ac17b2-12b4-4509-8cf9-cf42b966889b",
+              "uuid": "1f25fd47-9f59-49cf-9b08-2cfcb71a65c0",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2168,7 +2168,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-delete-created-tag', 'employees');",
               "err": {},
-              "uuid": "90b6056b-b2ff-4838-94d9-ebbacb68fa7c",
+              "uuid": "448ce952-bbdb-456e-bf1f-474e7cdb8e75",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2186,7 +2186,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-existing-tags', 'employees');",
               "err": {},
-              "uuid": "e8fe0072-b1d3-43cd-a4e7-2f77d3fac2ad",
+              "uuid": "b3855df4-1e4a-4daf-a319-f175ba6e3d5c",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2204,7 +2204,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('cancel-create-tags', 'employees');",
               "err": {},
-              "uuid": "4a925325-c5ac-47b8-a725-42cebbb96ed1",
+              "uuid": "171c96f8-ffe3-4d4c-a41c-2a57007b8632",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2222,7 +2222,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('update-empty-value', 'employees');",
               "err": {},
-              "uuid": "44fbc017-713d-438d-a9a3-0f95e3b07ad4",
+              "uuid": "9ad24141-e692-4faf-b38d-16bd26163d18",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2240,7 +2240,7 @@
               "context": null,
               "code": "TAGS.tagsScenarios('create-empty-value', 'employees');",
               "err": {},
-              "uuid": "e604bdea-84c5-40e4-97d7-144ac19cd848",
+              "uuid": "33a191a0-6ea8-4a14-9387-4eda06fc03b3",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2249,17 +2249,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "7379569b-c46e-4d54-936a-8ef074bcc280"
+            "ca8d5a6b-0e80-4d74-9877-4f427af1a872"
           ],
           "pending": [],
           "skipped": [
-            "08bcb2d2-3f83-4ed0-b960-4f516de99716",
-            "36ac17b2-12b4-4509-8cf9-cf42b966889b",
-            "90b6056b-b2ff-4838-94d9-ebbacb68fa7c",
-            "e8fe0072-b1d3-43cd-a4e7-2f77d3fac2ad",
-            "4a925325-c5ac-47b8-a725-42cebbb96ed1",
-            "44fbc017-713d-438d-a9a3-0f95e3b07ad4",
-            "e604bdea-84c5-40e4-97d7-144ac19cd848"
+            "cd3efb92-17d0-426b-9068-600a040224fd",
+            "1f25fd47-9f59-49cf-9b08-2cfcb71a65c0",
+            "448ce952-bbdb-456e-bf1f-474e7cdb8e75",
+            "b3855df4-1e4a-4daf-a319-f175ba6e3d5c",
+            "171c96f8-ffe3-4d4c-a41c-2a57007b8632",
+            "9ad24141-e692-4faf-b38d-16bd26163d18",
+            "33a191a0-6ea8-4a14-9387-4eda06fc03b3"
           ],
           "duration": 0,
           "root": false,

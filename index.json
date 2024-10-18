@@ -2,6 +2,7 @@
   "stats": {
     "suites": 10,
     "tests": 102,
+<<<<<<< HEAD
     "passes": 98,
     "pending": 0,
     "failures": 4,
@@ -10,6 +11,16 @@
     "duration": 2079726,
     "testsRegistered": 102,
     "passPercent": 96.07843137254902,
+=======
+    "passes": 97,
+    "pending": 0,
+    "failures": 5,
+    "start": "2024-10-16T18:20:58.062Z",
+    "end": "2024-10-16T18:57:44.459Z",
+    "duration": 2075265,
+    "testsRegistered": 102,
+    "passPercent": 95.09803921568627,
+>>>>>>> origin/main
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +29,11 @@
   },
   "results": [
     {
+<<<<<<< HEAD
       "uuid": "33d15889-18c1-4b1a-b19f-03f79170b426",
+=======
+      "uuid": "8dad4f7c-cc1e-4bf0-9f81-95ae2f3fbb4f",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\contact_us.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\contact_us.cy.ts",
@@ -27,7 +42,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "a7331eb3-884c-4d08-bdc9-a8247f33fda7",
+=======
+          "uuid": "df79450e-e155-4852-b674-f411c3ac192d",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : Contact Us",
           "fullFile": "",
           "file": "",
@@ -38,7 +57,11 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Manager Admin : Contact Us Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 19737,
+=======
+              "duration": 18713,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +70,13 @@
               "context": null,
               "code": "CONTACT_US.verifyItemsIfExist();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "39b6c1d3-0cce-4648-bc0b-4b20a535f46c",
               "parentUUID": "a7331eb3-884c-4d08-bdc9-a8247f33fda7",
+=======
+              "uuid": "03d5fc1c-b27e-4d90-a2f5-24d7e4232587",
+              "parentUUID": "df79450e-e155-4852-b674-f411c3ac192d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +84,11 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "UT : Manager Admin : Contact Us Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 139,
+=======
+              "duration": 148,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +97,13 @@
               "context": null,
               "code": "CONTACT_US.verifyTextsIfContains();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "405488cc-f0da-4649-88a0-d27bc099b888",
               "parentUUID": "a7331eb3-884c-4d08-bdc9-a8247f33fda7",
+=======
+              "uuid": "201bdd42-ccb8-4ee7-9773-bb0c245c8774",
+              "parentUUID": "df79450e-e155-4852-b674-f411c3ac192d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +111,11 @@
               "title": "Validate Cancel submission",
               "fullTitle": "UT : Manager Admin : Contact Us Validate Cancel submission",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2022,
+=======
+              "duration": 2093,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,8 +124,13 @@
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "fb223e69-9f3e-49d1-abe5-a274793a6209",
               "parentUUID": "a7331eb3-884c-4d08-bdc9-a8247f33fda7",
+=======
+              "uuid": "952cb1f5-f85f-4ff9-928f-ba81259ad144",
+              "parentUUID": "df79450e-e155-4852-b674-f411c3ac192d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +138,11 @@
               "title": "Validate contact-us submission",
               "fullTitle": "UT : Manager Admin : Contact Us Validate contact-us submission",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 9777,
+=======
+              "duration": 9605,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -101,23 +151,39 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "d616f95b-5435-4786-9ffb-71cbc3fb5fe1",
               "parentUUID": "a7331eb3-884c-4d08-bdc9-a8247f33fda7",
+=======
+              "uuid": "29fe46d2-7037-4c15-b4de-0dd3fe12b20e",
+              "parentUUID": "df79450e-e155-4852-b674-f411c3ac192d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "39b6c1d3-0cce-4648-bc0b-4b20a535f46c",
             "405488cc-f0da-4649-88a0-d27bc099b888",
             "fb223e69-9f3e-49d1-abe5-a274793a6209",
             "d616f95b-5435-4786-9ffb-71cbc3fb5fe1"
+=======
+            "03d5fc1c-b27e-4d90-a2f5-24d7e4232587",
+            "201bdd42-ccb8-4ee7-9773-bb0c245c8774",
+            "952cb1f5-f85f-4ff9-928f-ba81259ad144",
+            "29fe46d2-7037-4c15-b4de-0dd3fe12b20e"
+>>>>>>> origin/main
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 31675,
+=======
+          "duration": 30559,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -133,7 +199,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "51c068d1-bd5b-49ba-a818-00ac3faa61d0",
+=======
+      "uuid": "dec1ba33-e87b-452d-b9fa-291ca880d801",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\profile.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\profile.cy.ts",
@@ -142,7 +212,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+          "uuid": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : General",
           "fullFile": "",
           "file": "",
@@ -153,7 +227,11 @@
               "title": "Application Menu : Default items should visible",
               "fullTitle": "UT : Manager Admin : General Application Menu : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 21947,
+=======
+              "duration": 22316,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -162,8 +240,13 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyItemsIfExist('MA');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f9fe430c-0fce-44bc-969e-91259b51dbf7",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "b2637ce3-e3c2-41ee-80c2-6c70844c0177",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -171,7 +254,11 @@
               "title": "Application Menu : Check texts/labels if visible",
               "fullTitle": "UT : Manager Admin : General Application Menu : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 20,
+=======
+              "duration": 21,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -180,8 +267,13 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('MA');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "193aaf7d-2698-4690-8581-caa1c080627a",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "1da3114d-9a39-4d5c-b17e-b3c1844225ce",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -189,7 +281,11 @@
               "title": "Application Menu : Validate favorite application",
               "fullTitle": "UT : Manager Admin : General Application Menu : Validate favorite application",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5783,
+=======
+              "duration": 6015,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -198,8 +294,13 @@
               "context": null,
               "code": "SIDE_NAV_BAR.favoriteApp('assertAll');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "1079d06a-2957-40a5-8b74-e774fa901c08",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "03f415f4-b8a8-4230-99e7-7d3d23b8045b",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -207,7 +308,11 @@
               "title": "My Profile : Default items and fields should visible",
               "fullTitle": "UT : Manager Admin : General My Profile : Default items and fields should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2585,
+=======
+              "duration": 2343,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -216,8 +321,13 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nMY_PROFILE.verifyItemsIfExist('UT', 'MA');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "eaae1735-9e2d-487f-ae28-1f90a27fa209",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "d9f94914-bb37-4e1b-819f-9f651da35d07",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -225,7 +335,11 @@
               "title": "My Profile : Check texts/labels if visible",
               "fullTitle": "UT : Manager Admin : General My Profile : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 77,
+=======
+              "duration": 72,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -234,8 +348,13 @@
               "context": null,
               "code": "MY_PROFILE.verifyTextsIfContains('UT', 'MA');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "77cf363a-c0a0-4a7e-b259-cf9020f696c0",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "0b678279-5f17-4cd6-8417-8ba70fcf2011",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -243,6 +362,7 @@
               "title": "My Profile : Update Basic Information",
               "fullTitle": "UT : Manager Admin : General My Profile : Update Basic Information",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 60682,
               "state": "failed",
               "speed": null,
@@ -258,6 +378,19 @@
               },
               "uuid": "f65edb1a-8c6c-4d5a-9ac9-d45a0338726f",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "duration": 38679,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "MY_PROFILE.profile('update_basic_info', 'UT', '');",
+              "err": {},
+              "uuid": "26b8bc9e-98ac-427c-aac7-c0e4b73d8e25",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -265,17 +398,26 @@
               "title": "My Profile (NEGATIVE) : Invalidate Update button with empty mandatory fields",
               "fullTitle": "UT : Manager Admin : General My Profile (NEGATIVE) : Invalidate Update button with empty mandatory fields",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6138,
+=======
+              "duration": 4444,
+>>>>>>> origin/main
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "MY_PROFILE.profile('clear_all_fields', '', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "80b5b1ef-4f78-4fc6-a368-4e80d4be82ed",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "3ff8e9ae-b8a2-4b70-a522-a9725dd8d3c7",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -283,7 +425,11 @@
               "title": "My Profile (NEGATIVE) : Password and verify fields password does not match",
               "fullTitle": "UT : Manager Admin : General My Profile (NEGATIVE) : Password and verify fields password does not match",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4851,
+=======
+              "duration": 4172,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -292,8 +438,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('un_matched_password', '', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "ef5219ef-7c80-43cd-82c2-46e972fadf8f",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "a196cada-fc46-456f-b351-b557d646478b",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -301,17 +452,26 @@
               "title": "My Profile (EDGE CASE) : Add alphabet and special character on phone number",
               "fullTitle": "UT : Manager Admin : General My Profile (EDGE CASE) : Add alphabet and special character on phone number",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5030,
+=======
+              "duration": 3952,
+>>>>>>> origin/main
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "MY_PROFILE.profile('validate_phone_number', '', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "9554eeb4-af81-48c5-b7dd-e77f6c8ce900",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "3e455672-ceb9-4f57-b6a4-bc5c350e611c",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -319,7 +479,11 @@
               "title": "My Profile (EDGE CASE) : Add alphabet and special character on mobile number",
               "fullTitle": "UT : Manager Admin : General My Profile (EDGE CASE) : Add alphabet and special character on mobile number",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4838,
+=======
+              "duration": 4141,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -328,8 +492,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_number', '', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c0ae43bd-ea2e-41d8-8f7a-b2cae4b17156",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "87923d5d-4857-4c88-acae-268debaa0328",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -337,17 +506,26 @@
               "title": "My Profile (OOTB) : Able to change country code on phone number",
               "fullTitle": "UT : Manager Admin : General My Profile (OOTB) : Able to change country code on phone number",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6099,
+=======
+              "duration": 4607,
+>>>>>>> origin/main
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_country_code', '', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "dd8acd91-580a-4df5-bedd-3ce49d61e538",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "6ec06972-50aa-43b3-b03f-c7987cbd979c",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -355,17 +533,26 @@
               "title": "My Profile (OOTB) : Disable update button when mandatory fields are empty",
               "fullTitle": "UT : Manager Admin : General My Profile (OOTB) : Disable update button when mandatory fields are empty",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5236,
+=======
+              "duration": 3561,
+>>>>>>> origin/main
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "MY_PROFILE.profile('disable_update_button', '', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "d6b9a733-4b30-45cc-8864-db2275c817ec",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "32a6db14-9c60-46c7-a784-058aa231ecd4",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -373,7 +560,7 @@
               "title": "My Profile : Validate Password Strength - risk",
               "fullTitle": "UT : Manager Admin : General My Profile : Validate Password Strength - risk",
               "timedOut": null,
-              "duration": 392,
+              "duration": 394,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -382,8 +569,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "9895c904-61f0-4734-b472-c0f1fbcc8f89",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "fe7ff28a-8453-49da-a113-c4808dc77a0a",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -391,7 +583,11 @@
               "title": "My Profile : Validate Password Strength - weak",
               "fullTitle": "UT : Manager Admin : General My Profile : Validate Password Strength - weak",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 412,
+=======
+              "duration": 428,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -400,8 +596,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "82bda312-01f0-438d-a735-9c9af28e444e",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "4db8b0ed-44ec-4280-830d-45df66d1eaff",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -409,7 +610,11 @@
               "title": "My Profile : Validate Password Strength - fair",
               "fullTitle": "UT : Manager Admin : General My Profile : Validate Password Strength - fair",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 568,
+=======
+              "duration": 597,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -418,8 +623,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "d4755296-44ae-457d-aefc-06087d767949",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "543db6fe-9288-4592-a35a-c9f594a79f56",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -427,7 +637,11 @@
               "title": "My Profile : Validate Password Strength - good",
               "fullTitle": "UT : Manager Admin : General My Profile : Validate Password Strength - good",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 607,
+=======
+              "duration": 622,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -436,8 +650,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('good');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "dfdb7287-bf94-4678-a670-d297b225e098",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "608b1181-09e9-4c5b-a8c9-9137823ded57",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -445,7 +664,11 @@
               "title": "My Profile : Validate Password Strength - strong",
               "fullTitle": "UT : Manager Admin : General My Profile : Validate Password Strength - strong",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 836,
+=======
+              "duration": 970,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -454,14 +677,20 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "fce0450b-3a14-4974-bad3-ac2fd426470a",
               "parentUUID": "788464a2-583f-40c8-bcc9-193d239c0e6f",
+=======
+              "uuid": "1c135c7e-db87-4959-b481-33f0215fe1f2",
+              "parentUUID": "cd372608-ba0e-4ef0-b675-3cdc96f1be7e",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "f9fe430c-0fce-44bc-969e-91259b51dbf7",
             "193aaf7d-2698-4690-8581-caa1c080627a",
             "1079d06a-2957-40a5-8b74-e774fa901c08",
@@ -481,10 +710,34 @@
           ],
           "failures": [
             "f65edb1a-8c6c-4d5a-9ac9-d45a0338726f"
+=======
+            "b2637ce3-e3c2-41ee-80c2-6c70844c0177",
+            "1da3114d-9a39-4d5c-b17e-b3c1844225ce",
+            "03f415f4-b8a8-4230-99e7-7d3d23b8045b",
+            "d9f94914-bb37-4e1b-819f-9f651da35d07",
+            "0b678279-5f17-4cd6-8417-8ba70fcf2011",
+            "26b8bc9e-98ac-427c-aac7-c0e4b73d8e25",
+            "3ff8e9ae-b8a2-4b70-a522-a9725dd8d3c7",
+            "a196cada-fc46-456f-b351-b557d646478b",
+            "3e455672-ceb9-4f57-b6a4-bc5c350e611c",
+            "87923d5d-4857-4c88-acae-268debaa0328",
+            "6ec06972-50aa-43b3-b03f-c7987cbd979c",
+            "32a6db14-9c60-46c7-a784-058aa231ecd4",
+            "fe7ff28a-8453-49da-a113-c4808dc77a0a",
+            "4db8b0ed-44ec-4280-830d-45df66d1eaff",
+            "543db6fe-9288-4592-a35a-c9f594a79f56",
+            "608b1181-09e9-4c5b-a8c9-9137823ded57",
+            "1c135c7e-db87-4959-b481-33f0215fe1f2"
+>>>>>>> origin/main
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 126101,
+=======
+          "duration": 97334,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -500,7 +753,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "9c7cbdc4-b8eb-4b01-9d6a-d24642fa57e5",
+=======
+      "uuid": "f4db74a2-73c0-4601-b4b8-76f98ffbda60",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\reg_codes.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\reg_codes.cy.ts",
@@ -509,7 +766,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+          "uuid": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
           "title": "UT : Add New Managers - Registration codes",
           "fullFile": "",
           "file": "",
@@ -520,7 +781,11 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Add New Managers - Registration codes Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3586,
+=======
+              "duration": 3038,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -529,8 +794,13 @@
               "context": null,
               "code": "NEW_USER.register('default_items', null);",
               "err": {},
+<<<<<<< HEAD
               "uuid": "93e9f951-fe72-487e-839c-2c1b5337601c",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "bcf009ab-8d10-4a79-93dc-87dc6d740dc1",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -538,7 +808,11 @@
               "title": "Validate successful new user account creation",
               "fullTitle": "UT : Add New Managers - Registration codes Validate successful new user account creation",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 13217,
+=======
+              "duration": 12856,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -547,8 +821,13 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'success_creation');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "3f4f33b7-1f4c-4893-90e6-fc28e18b23f8",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "5108f5b1-e206-4193-947b-7369c97ba871",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -556,7 +835,11 @@
               "title": "Validate existing user",
               "fullTitle": "UT : Add New Managers - Registration codes Validate existing user",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6263,
+=======
+              "duration": 6227,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -565,8 +848,13 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'already_exist');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c2b79704-b676-4569-bfd2-c9efb8470cdf",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "2ec8d050-7386-4391-8820-bb415055cad1",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -574,7 +862,11 @@
               "title": "Validate cancel adding new user",
               "fullTitle": "UT : Add New Managers - Registration codes Validate cancel adding new user",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 224,
+=======
+              "duration": 254,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -583,8 +875,13 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('cancel_creating_user', null);",
               "err": {},
+<<<<<<< HEAD
               "uuid": "1f7e6a96-8e66-40f0-ad48-72725d2b78dd",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "1565c5c8-53d9-4a5c-a38b-dcce9b1602f2",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -592,7 +889,11 @@
               "title": "Check field validations",
               "fullTitle": "UT : Add New Managers - Registration codes Check field validations",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1698,
+=======
+              "duration": 1728,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -601,8 +902,13 @@
               "context": null,
               "code": "NEW_USER.register('disable_submit_button', null);",
               "err": {},
+<<<<<<< HEAD
               "uuid": "aade0ee4-7d2c-4b55-8cfd-7d08e1192215",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "64bc3aa0-3dd2-462e-ace5-78bb4e088ebf",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -610,7 +916,11 @@
               "title": "Validate matching email and confirm email fields",
               "fullTitle": "UT : Add New Managers - Registration codes Validate matching email and confirm email fields",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5431,
+=======
+              "duration": 5829,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -619,8 +929,13 @@
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'email_not_matched');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "131517e1-627a-4b83-9b8b-a521d1a908a8",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "c73140c3-5a71-42fa-be25-03be459fdb43",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -628,7 +943,11 @@
               "title": "Validate matching password and verify password fields",
               "fullTitle": "UT : Add New Managers - Registration codes Validate matching password and verify password fields",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4687,
+=======
+              "duration": 4722,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -637,8 +956,13 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('validation_fields', 'passwords_not_matched');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "0eff734e-8f04-4f46-8288-14a6aed091a4",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "edceb190-bf48-4459-a99d-4cec51c50e4d",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -646,7 +970,11 @@
               "title": "Create account : Validate Password Strength - risk",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - risk",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 426,
+=======
+              "duration": 454,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -655,8 +983,13 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "9357e142-3891-46d7-9765-b732e016c5b9",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "b6757ec4-295a-40d9-8e13-9fd40943d794",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -664,7 +997,11 @@
               "title": "Create account : Validate Password Strength - weak",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - weak",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 451,
+=======
+              "duration": 467,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -673,8 +1010,13 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "57ba6ccc-95af-4a23-88c5-6126a6b6684d",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "9af70697-81c8-4227-a721-403a4ba14d38",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -682,7 +1024,11 @@
               "title": "Create account : Validate Password Strength - fair",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - fair",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 514,
+=======
+              "duration": 516,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -691,8 +1037,13 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "50b11144-99aa-4873-b981-bd23804318cc",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "89a9ea0c-357f-4d3b-a7ff-aee8901e68a9",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -700,7 +1051,11 @@
               "title": "Create account : Validate Password Strength - good",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - good",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 542,
+=======
+              "duration": 545,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -709,8 +1064,13 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('good');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "25b520a1-91ed-46dd-9016-a4539428d6e1",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "2614636b-12b4-4bc2-937a-e899807fca87",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -718,7 +1078,11 @@
               "title": "Create account : Validate Password Strength - strong",
               "fullTitle": "UT : Add New Managers - Registration codes Create account : Validate Password Strength - strong",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 658,
+=======
+              "duration": 647,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -727,14 +1091,20 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "60ac3a16-9db3-43f2-855f-a97645f09f02",
               "parentUUID": "f22a41f6-26f0-4f72-a5bc-3338e9320a13",
+=======
+              "uuid": "afc42820-5ac9-4728-9c73-da51aca07bce",
+              "parentUUID": "ee53e590-81e9-48ed-91db-4a64838922ee",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "93e9f951-fe72-487e-839c-2c1b5337601c",
             "3f4f33b7-1f4c-4893-90e6-fc28e18b23f8",
             "c2b79704-b676-4569-bfd2-c9efb8470cdf",
@@ -747,11 +1117,29 @@
             "50b11144-99aa-4873-b981-bd23804318cc",
             "25b520a1-91ed-46dd-9016-a4539428d6e1",
             "60ac3a16-9db3-43f2-855f-a97645f09f02"
+=======
+            "bcf009ab-8d10-4a79-93dc-87dc6d740dc1",
+            "5108f5b1-e206-4193-947b-7369c97ba871",
+            "2ec8d050-7386-4391-8820-bb415055cad1",
+            "1565c5c8-53d9-4a5c-a38b-dcce9b1602f2",
+            "64bc3aa0-3dd2-462e-ace5-78bb4e088ebf",
+            "c73140c3-5a71-42fa-be25-03be459fdb43",
+            "edceb190-bf48-4459-a99d-4cec51c50e4d",
+            "b6757ec4-295a-40d9-8e13-9fd40943d794",
+            "9af70697-81c8-4227-a721-403a4ba14d38",
+            "89a9ea0c-357f-4d3b-a7ff-aee8901e68a9",
+            "2614636b-12b4-4bc2-937a-e899807fca87",
+            "afc42820-5ac9-4728-9c73-da51aca07bce"
+>>>>>>> origin/main
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 37697,
+=======
+          "duration": 37283,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -767,7 +1155,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "d15c12d2-fcf8-4187-b833-cf42353ee96a",
+=======
+      "uuid": "f3faf4cc-881a-48cc-8728-31ba8d2b5d0d",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\company_dark_web.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\company_dark_web.cy.ts",
@@ -776,7 +1168,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+          "uuid": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : Company : Dark Web Monitoring",
           "fullFile": "",
           "file": "",
@@ -787,7 +1183,11 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 30613,
+=======
+              "duration": 26236,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -796,8 +1196,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('default_items');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "df2aa1a0-f072-4416-aacd-04e5191493d0",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "81ea3b55-5af2-437c-8f35-3f8132746ea6",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -805,7 +1210,11 @@
               "title": "Generate Reports",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Generate Reports",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1945,
+=======
+              "duration": 1688,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -814,8 +1223,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('api_report');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "def699fe-ced0-45e4-872d-3df6195e7261",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "d269b696-d6dd-4332-a2e9-9d79325ea1c6",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -823,17 +1237,26 @@
               "title": "Validate API results when generating reports",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Validate API results when generating reports",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5657,
+=======
+              "duration": 4333,
+>>>>>>> origin/main
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "a78063cb-031a-4b04-8ffc-3925bd9c17e6",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "ab014567-642d-4697-8b6d-4821720dcf96",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -841,7 +1264,11 @@
               "title": "Validate POST method each click event on table results",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Validate POST method each click event on table results",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 198,
+=======
+              "duration": 200,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -850,8 +1277,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('refresh_session_event');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "9d74c98b-0847-4d73-a64b-75439a29d388",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "7dc93018-ab8b-4c0e-912e-f7ec925be8f5",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -859,7 +1291,11 @@
               "title": "Validate unregistered domain on table results",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Validate unregistered domain on table results",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1993,
+=======
+              "duration": 1896,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -868,8 +1304,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_unregistered_domains');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "08dcf4ea-ced5-4382-9ced-edb526b2c3ee",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "a6dc67ad-96c9-45e7-a65d-f0e4cd83dd29",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -877,17 +1318,26 @@
               "title": "Validate unlisted site breached on table results",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Validate unlisted site breached on table results",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5783,
+=======
+              "duration": 4700,
+>>>>>>> origin/main
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "DARK_WEB.validateScenario('search_unlisted_site_breached');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "67465340-31e9-46a8-9251-9d9a02b689d4",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "ac0f3459-c38b-4bfb-8070-9a3849a9418a",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -895,7 +1345,11 @@
               "title": "Invalidate searching breach date",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Invalidate searching breach date",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5138,
+=======
+              "duration": 4942,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -904,8 +1358,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('search_breach_date');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "4d4ef89d-8e66-4c75-b912-d4af30a47904",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "fdfcd376-7f46-4776-a698-9ae806bc96a7",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -913,7 +1372,11 @@
               "title": "Validate password redaction options",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Validate password redaction options",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3260,
+=======
+              "duration": 3714,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -922,8 +1385,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('obfuscate_password');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "18b3aa06-aac0-427e-88b2-72dbf5fa58b0",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "d7ce349f-c01a-4d98-a55c-d5a595133b09",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -931,7 +1399,11 @@
               "title": "Validate non redaction password",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Validate non redaction password",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 366,
+=======
+              "duration": 354,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -940,8 +1412,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('non_redacted_password');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f79719e4-3f47-4cce-8bae-29a9381c2756",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "9a8718d6-1450-43bc-aef2-bc68bb9e79fe",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -949,7 +1426,11 @@
               "title": "Validate column sorting",
               "fullTitle": "UT : Manager Admin : Company : Dark Web Monitoring Validate column sorting",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 9394,
+=======
+              "duration": 6679,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -958,14 +1439,20 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('column_sorting');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b840e4d5-fc36-4d53-8d0d-810838a4c99e",
               "parentUUID": "71cba4fc-bda6-4d5e-a9ec-abf3f5a1a9dc",
+=======
+              "uuid": "fe619d6b-5382-4ff2-b533-656f2c6a978f",
+              "parentUUID": "daa104ad-773f-4573-a00b-c49ab19dc249",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "df2aa1a0-f072-4416-aacd-04e5191493d0",
             "def699fe-ced0-45e4-872d-3df6195e7261",
             "a78063cb-031a-4b04-8ffc-3925bd9c17e6",
@@ -976,11 +1463,27 @@
             "18b3aa06-aac0-427e-88b2-72dbf5fa58b0",
             "f79719e4-3f47-4cce-8bae-29a9381c2756",
             "b840e4d5-fc36-4d53-8d0d-810838a4c99e"
+=======
+            "81ea3b55-5af2-437c-8f35-3f8132746ea6",
+            "d269b696-d6dd-4332-a2e9-9d79325ea1c6",
+            "ab014567-642d-4697-8b6d-4821720dcf96",
+            "7dc93018-ab8b-4c0e-912e-f7ec925be8f5",
+            "a6dc67ad-96c9-45e7-a65d-f0e4cd83dd29",
+            "ac0f3459-c38b-4bfb-8070-9a3849a9418a",
+            "fdfcd376-7f46-4776-a698-9ae806bc96a7",
+            "d7ce349f-c01a-4d98-a55c-d5a595133b09",
+            "9a8718d6-1450-43bc-aef2-bc68bb9e79fe",
+            "fe619d6b-5382-4ff2-b533-656f2c6a978f"
+>>>>>>> origin/main
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 64347,
+=======
+          "duration": 54742,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -996,7 +1499,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "0a9aa4c6-ca1e-4175-9c2c-54d13c3aec4b",
+=======
+      "uuid": "478f412b-1741-406a-82b7-a592ea396d2d",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-dashboard\\manager_admin_training.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-dashboard\\manager_admin_training.cy.ts",
@@ -1005,7 +1512,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+          "uuid": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : Dashboard : Training",
           "fullFile": "",
           "file": "",
@@ -1016,7 +1527,11 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Manager Admin : Dashboard : Training Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 37229,
+=======
+              "duration": 36423,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1025,8 +1540,13 @@
               "context": null,
               "code": "TRAINING.completedCourses('default_items');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "2b5aaf5f-c571-451f-92cc-aed85324e0c6",
               "parentUUID": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+              "uuid": "56a94fe5-880a-44a3-ae03-647a78841fec",
+              "parentUUID": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1034,7 +1554,11 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "UT : Manager Admin : Dashboard : Training Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 8813,
+=======
+              "duration": 7245,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1043,8 +1567,13 @@
               "context": null,
               "code": "TRAINING.completedCourses('default_texts');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "2d78fa9f-1f07-432b-be37-5557be559fbd",
               "parentUUID": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+              "uuid": "f72d38b1-415a-4b5f-95ed-2767e23833f0",
+              "parentUUID": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1052,7 +1581,11 @@
               "title": "Validate Cybersecurity Training Videos",
               "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Cybersecurity Training Videos",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 8630,
+=======
+              "duration": 7234,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1061,8 +1594,13 @@
               "context": null,
               "code": "TRAINING.completedCourses('security_training_videos');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "e92af33f-6651-4ea4-8dec-01cf46d6195a",
               "parentUUID": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+              "uuid": "96160140-3dd1-4fb7-8917-39e3c594e33b",
+              "parentUUID": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1070,7 +1608,11 @@
               "title": "Validate Optional Manager Training",
               "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Optional Manager Training",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 9100,
+=======
+              "duration": 7840,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1079,8 +1621,13 @@
               "context": null,
               "code": "TRAINING.completedCourses('training_videos');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "7e8344e2-de4d-41e8-81ef-6f6ef61e0bba",
               "parentUUID": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+              "uuid": "3586dfad-9445-4925-ae60-2825abc87616",
+              "parentUUID": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1088,7 +1635,11 @@
               "title": "Training (EDGE) : Validate Security Quiz",
               "fullTitle": "UT : Manager Admin : Dashboard : Training Training (EDGE) : Validate Security Quiz",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 48069,
+=======
+              "duration": 44269,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1097,8 +1648,13 @@
               "context": null,
               "code": "TRAINING.completedCourses('complete_security_quiz');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "50f1b926-26c4-4c2f-ad1c-ece8543cf34f",
               "parentUUID": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+              "uuid": "72da2561-316a-42d7-80ab-7252cf2803e0",
+              "parentUUID": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1106,7 +1662,11 @@
               "title": "Training (EDGE) : Validate Reviewing Security Quiz",
               "fullTitle": "UT : Manager Admin : Dashboard : Training Training (EDGE) : Validate Reviewing Security Quiz",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 22653,
+=======
+              "duration": 21817,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1115,8 +1675,13 @@
               "context": null,
               "code": "TRAINING.completedCourses('review_security_quiz');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "0b63c383-9082-44bf-9e29-8d54ce7d08fa",
               "parentUUID": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+              "uuid": "8193f916-f25b-452d-aa70-e858ef74aad4",
+              "parentUUID": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1124,7 +1689,11 @@
               "title": "Training : Validate Step 3 - Print Your Certificate",
               "fullTitle": "UT : Manager Admin : Dashboard : Training Training : Validate Step 3 - Print Your Certificate",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 17801,
+=======
+              "duration": 17231,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1133,8 +1702,13 @@
               "context": null,
               "code": "TRAINING.completedCourses('print_certificate');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "cc90f16a-301d-4ca7-a2be-ef127e0f3ac6",
               "parentUUID": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+              "uuid": "b9cf6601-1385-4474-9a8b-ce8525ab3baa",
+              "parentUUID": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1142,7 +1716,11 @@
               "title": "Validate Enrolled Courses",
               "fullTitle": "UT : Manager Admin : Dashboard : Training Validate Enrolled Courses",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 9042,
+=======
+              "duration": 6982,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1151,14 +1729,20 @@
               "context": null,
               "code": "TRAINING.enrolledCourses();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "735ce496-804f-4ebd-917f-d333796f464b",
               "parentUUID": "ac93f082-3ac1-4cf6-bf6a-6ec0534bc4be",
+=======
+              "uuid": "7b069a35-78a5-4bf8-b6b8-ff016ec7d1b2",
+              "parentUUID": "8b529cd8-5a69-480c-ba93-916ce403e90d",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "2b5aaf5f-c571-451f-92cc-aed85324e0c6",
             "2d78fa9f-1f07-432b-be37-5557be559fbd",
             "e92af33f-6651-4ea4-8dec-01cf46d6195a",
@@ -1167,11 +1751,25 @@
             "0b63c383-9082-44bf-9e29-8d54ce7d08fa",
             "cc90f16a-301d-4ca7-a2be-ef127e0f3ac6",
             "735ce496-804f-4ebd-917f-d333796f464b"
+=======
+            "56a94fe5-880a-44a3-ae03-647a78841fec",
+            "f72d38b1-415a-4b5f-95ed-2767e23833f0",
+            "96160140-3dd1-4fb7-8917-39e3c594e33b",
+            "3586dfad-9445-4925-ae60-2825abc87616",
+            "72da2561-316a-42d7-80ab-7252cf2803e0",
+            "8193f916-f25b-452d-aa70-e858ef74aad4",
+            "b9cf6601-1385-4474-9a8b-ce8525ab3baa",
+            "7b069a35-78a5-4bf8-b6b8-ff016ec7d1b2"
+>>>>>>> origin/main
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 161337,
+=======
+          "duration": 149041,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1187,7 +1785,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "cf76c154-876d-44b7-9219-5af8d8619453",
+=======
+      "uuid": "e00a577f-1faf-433d-88ed-a10227517e8a",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\employees.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\employees.cy.ts",
@@ -1196,7 +1798,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+          "uuid": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : Company : Employee",
           "fullFile": "",
           "file": "",
@@ -1207,7 +1813,11 @@
               "title": "Validate create Manager Admin user",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate create Manager Admin user",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 83929,
+=======
+              "duration": 83944,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1216,8 +1826,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'MANAGER-ADMIN', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "ca0893b8-0818-4acd-928a-5771e724e12f",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "6c44a1e6-4f2b-4e3e-9c22-b43959ee9f33",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1225,7 +1840,11 @@
               "title": "Validate search created Manager Admin User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate search created Manager Admin User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 52161,
+=======
+              "duration": 52434,
+>>>>>>> origin/main
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1238,8 +1857,13 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-247.MuiTableCell-body-249.ComponentTypes__TableCellContent-sc-nb4o94-12.VeWGT.MuiTableCell-alignLeft-254>' to contain text '350', but the text was ''\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:685:90)",
                 "diff": "+ '350'\n"
               },
+<<<<<<< HEAD
               "uuid": "61a3e50d-1949-4899-90a5-83a680ff7051",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "c4939d9a-d18e-4948-a3d6-434b00f8982b",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1247,7 +1871,11 @@
               "title": "Validate update Manager Admin User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate update Manager Admin User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 68396,
+=======
+              "duration": 68308,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1256,8 +1884,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'MANAGER-ADMIN', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "eb24fd12-bf10-479b-bc5a-be826dc4eb5c",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "55b247ca-47d5-4727-a4af-2c2b6792eda2",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1265,7 +1898,11 @@
               "title": "Validate delete Manager Admin User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate delete Manager Admin User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 26451,
+=======
+              "duration": 25699,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1274,8 +1911,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'MANAGER-ADMIN', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "035adb21-be39-482b-9dc1-e221ec4375cf",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "ab554d54-1cf4-4cc5-a523-d3bd79139092",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1283,7 +1925,11 @@
               "title": "Validate create Manager user",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate create Manager user",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 62734,
+=======
+              "duration": 61611,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1292,8 +1938,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'MANAGER', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b82659b5-711d-4693-80fc-59e04a24bbcf",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "994a6bda-2fb4-4472-bc72-25f9236dc531",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1301,7 +1952,11 @@
               "title": "Validate search created Manager User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate search created Manager User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 52724,
+=======
+              "duration": 52699,
+>>>>>>> origin/main
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1314,8 +1969,13 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-247.MuiTableCell-body-249.ComponentTypes__TableCellContent-sc-nb4o94-12.VeWGT.MuiTableCell-alignLeft-254>' to contain text '350', but the text was ''\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:685:90)",
                 "diff": "+ '350'\n"
               },
+<<<<<<< HEAD
               "uuid": "751559b1-2bf5-4c6f-812f-a21c310eedc3",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "ec6b12be-accb-4ad5-94e2-6b2ce880af5f",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1323,7 +1983,11 @@
               "title": "Validate update Manager User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate update Manager User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 68438,
+=======
+              "duration": 68507,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1332,8 +1996,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'MANAGER', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f603229a-12cf-41bf-a4b8-d6ba0829972a",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "9aebe099-56f0-4cf2-9eb7-330ad9d65139",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1341,7 +2010,11 @@
               "title": "Validate delete Manager User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate delete Manager User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 25890,
+=======
+              "duration": 25233,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1350,8 +2023,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'MANAGER', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5b96fd9f-12b7-474d-ba81-3bc0b6df1eff",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "4ca36be7-6952-4cb9-af69-ec6ad14ebdac",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1359,7 +2037,11 @@
               "title": "Validate create Employee user",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate create Employee user",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 61521,
+=======
+              "duration": 63112,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1368,8 +2050,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f03659ff-ed2f-4882-9f6b-d69095373afc",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "6ed19df8-0821-4500-816a-7677edccb865",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1377,7 +2064,11 @@
               "title": "Validate search created Employee User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate search created Employee User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 53115,
+=======
+              "duration": 52589,
+>>>>>>> origin/main
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1390,8 +2081,13 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: expected '<td.MuiTableCell-root-247.MuiTableCell-body-249.ComponentTypes__TableCellContent-sc-nb4o94-12.VeWGT.MuiTableCell-alignLeft-254>' to contain text '350', but the text was ''\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:685:90)",
                 "diff": "+ '350'\n"
               },
+<<<<<<< HEAD
               "uuid": "fe155540-d0aa-4c7c-a5cf-e8f1e24f4733",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "bcf4d1b5-4846-4ecd-840f-ee7007f92238",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1399,7 +2095,11 @@
               "title": "Validate update Employee User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate update Employee User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 70102,
+=======
+              "duration": 69408,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1408,8 +2108,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('update', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "fbf1045d-eeb0-4919-b847-4e434c08ec3b",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "4b4b8292-837d-498e-a95f-56599a183ef7",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1417,7 +2122,11 @@
               "title": "Validate delete Employee User",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate delete Employee User",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 26528,
+=======
+              "duration": 25152,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1426,8 +2135,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('delete', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "97f50cd1-bfd3-4a5b-b468-ea3fca63af77",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "10d07aae-5fe6-4b54-b2ee-7125a0f0375f",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1435,7 +2149,11 @@
               "title": "Negative - Validated search unregistered users",
               "fullTitle": "UT : Manager Admin : Company : Employee Negative - Validated search unregistered users",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 16467,
+=======
+              "duration": 14251,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1444,8 +2162,13 @@
               "context": null,
               "code": "EMPLOYEES.searchScenarios('unregistered-user', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5c0b93df-0e5c-4fda-95a5-3abf4e9d4ae2",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "f189019a-0ab6-4818-af78-b3aff1aaf30f",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1453,7 +2176,11 @@
               "title": "Validate enable send welcome message",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate enable send welcome message",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 13967,
+=======
+              "duration": 12662,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1462,8 +2189,13 @@
               "context": null,
               "code": "EMPLOYEES.welcomeMessage('enable', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "54595cf2-35cb-4cef-8991-33fd47b9f79e",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "87965ed8-62cd-42db-b0d0-e0156e8d3903",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1471,7 +2203,11 @@
               "title": "Validate disable send welcome message",
               "fullTitle": "UT : Manager Admin : Company : Employee Validate disable send welcome message",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 14207,
+=======
+              "duration": 12535,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1480,8 +2216,13 @@
               "context": null,
               "code": "EMPLOYEES.welcomeMessage('disable', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "99bc683d-38b6-432a-97f7-62bc8bb5bd61",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "f6e9489b-ec6c-49f7-8dc2-42a815954a43",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1489,7 +2230,11 @@
               "title": "Criteria: Validate `Error: A user with a matching....` must be displayed after creating a client that already exists within deleted filter",
               "fullTitle": "UT : Manager Admin : Company : Employee Criteria: Validate `Error: A user with a matching....` must be displayed after creating a client that already exists within deleted filter",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 33850,
+=======
+              "duration": 32729,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1498,8 +2243,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('create_deleted_user', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "cb648ebf-f510-47d8-9809-6fb79429930c",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "4b905d23-2ecc-4697-9956-fb1416d48584",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1507,7 +2257,11 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Removes filter]",
               "fullTitle": "UT : Manager Admin : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Removes filter]",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 34910,
+=======
+              "duration": 34107,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1516,8 +2270,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('remove_filter', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b94626e5-8536-4ad2-9d50-881e6fc2381c",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "d153f07a-4df3-4aae-9572-ec1950af6646",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1525,7 +2284,11 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Refresh the browser]",
               "fullTitle": "UT : Manager Admin : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Refresh the browser]",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 35665,
+=======
+              "duration": 35781,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1534,8 +2297,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('reload_webpage', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b565c747-e5ca-4f0a-85d2-2baebbc13e93",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "75ec3983-d2a5-4990-afbb-165ee89257a1",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1543,7 +2311,11 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Search for a user]",
               "fullTitle": "UT : Manager Admin : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Search for a user]",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 36357,
+=======
+              "duration": 34743,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1552,8 +2324,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('search_user', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "41270d46-6e7a-4ea0-9180-a94a1831a311",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "7d2c8952-7214-4d1c-82c0-3141b2d86b6d",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1561,7 +2338,11 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Pagination]",
               "fullTitle": "UT : Manager Admin : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Pagination]",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 37049,
+=======
+              "duration": 36081,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1570,8 +2351,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('paginate', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "83731df5-43bf-40a8-ac38-5c55e53c6e58",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "61c0b150-df85-4073-89ef-f3e54504346e",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1579,7 +2365,11 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Filter any option]",
               "fullTitle": "UT : Manager Admin : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Filter any option]",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 33596,
+=======
+              "duration": 34322,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1588,8 +2378,13 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('addFilter', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "24d6b65c-921d-407c-82aa-6a4b7df17415",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "daca7dde-20a5-43ff-80a1-d2a7b79552ea",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1597,7 +2392,11 @@
               "title": "Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Download Client Report]",
               "fullTitle": "UT : Manager Admin : Company : Employee Criteria: The banner should display until the user leaves the screen, performs another action, or the user is restored. [Download Client Report]",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 34554,
+=======
+              "duration": 36969,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1606,14 +2405,20 @@
               "context": null,
               "code": "EMPLOYEES.employeeUsersScenarios('downloadClientReport', 'EMPLOYEE', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f4fab321-9771-4120-afc4-bc0cdb21dc1f",
               "parentUUID": "57bcb1ff-0c3a-463c-8eea-caa7230f9431",
+=======
+              "uuid": "731a1a85-aceb-4c3f-8405-832318bbefdd",
+              "parentUUID": "d59147c6-6af6-417f-9c77-61a6670e7165",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "ca0893b8-0818-4acd-928a-5771e724e12f",
             "eb24fd12-bf10-479b-bc5a-be826dc4eb5c",
             "035adb21-be39-482b-9dc1-e221ec4375cf",
@@ -1642,6 +2447,36 @@
           "pending": [],
           "skipped": [],
           "duration": 942611,
+=======
+            "6c44a1e6-4f2b-4e3e-9c22-b43959ee9f33",
+            "55b247ca-47d5-4727-a4af-2c2b6792eda2",
+            "ab554d54-1cf4-4cc5-a523-d3bd79139092",
+            "994a6bda-2fb4-4472-bc72-25f9236dc531",
+            "9aebe099-56f0-4cf2-9eb7-330ad9d65139",
+            "4ca36be7-6952-4cb9-af69-ec6ad14ebdac",
+            "6ed19df8-0821-4500-816a-7677edccb865",
+            "4b4b8292-837d-498e-a95f-56599a183ef7",
+            "10d07aae-5fe6-4b54-b2ee-7125a0f0375f",
+            "f189019a-0ab6-4818-af78-b3aff1aaf30f",
+            "87965ed8-62cd-42db-b0d0-e0156e8d3903",
+            "f6e9489b-ec6c-49f7-8dc2-42a815954a43",
+            "4b905d23-2ecc-4697-9956-fb1416d48584",
+            "d153f07a-4df3-4aae-9572-ec1950af6646",
+            "75ec3983-d2a5-4990-afbb-165ee89257a1",
+            "7d2c8952-7214-4d1c-82c0-3141b2d86b6d",
+            "61c0b150-df85-4073-89ef-f3e54504346e",
+            "daca7dde-20a5-43ff-80a1-d2a7b79552ea",
+            "731a1a85-aceb-4c3f-8405-832318bbefdd"
+          ],
+          "failures": [
+            "c4939d9a-d18e-4948-a3d6-434b00f8982b",
+            "ec6b12be-accb-4ad5-94e2-6b2ce880af5f",
+            "bcf4d1b5-4846-4ecd-840f-ee7007f92238"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 932876,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1657,7 +2492,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "dd8b2547-33ca-46d1-988b-a7d7a7c079c2",
+=======
+      "uuid": "ff3d040a-b56c-4ea0-9ef0-d55885b0685b",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\mfa.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\mfa.cy.ts",
@@ -1666,7 +2505,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "05ae04c8-c817-4f91-b74a-723d2518a3f7",
+=======
+          "uuid": "6fa9382c-f22f-44be-8b18-64be6b05588a",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : My Company : Employee Management : MFA",
           "fullFile": "",
           "file": "",
@@ -1677,7 +2520,11 @@
               "title": "Validate default items should visible",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : MFA Validate default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 30661,
+=======
+              "duration": 31269,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1686,8 +2533,13 @@
               "context": null,
               "code": "EMPLOYEES.MFA('status', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "29a0b644-83aa-4e36-8e9b-e7d009181a57",
               "parentUUID": "05ae04c8-c817-4f91-b74a-723d2518a3f7",
+=======
+              "uuid": "03fb743c-2633-4161-af11-dbab5e376dac",
+              "parentUUID": "6fa9382c-f22f-44be-8b18-64be6b05588a",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1695,7 +2547,11 @@
               "title": "Validate dialog status settings",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : MFA Validate dialog status settings",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 10551,
+=======
+              "duration": 10243,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1704,21 +2560,35 @@
               "context": null,
               "code": "EMPLOYEES.MFA('status dialog settings', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "51418b13-a045-4270-b3f0-502a1ca6822b",
               "parentUUID": "05ae04c8-c817-4f91-b74a-723d2518a3f7",
+=======
+              "uuid": "a15d2212-2aba-4736-847d-cd936567d979",
+              "parentUUID": "6fa9382c-f22f-44be-8b18-64be6b05588a",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "29a0b644-83aa-4e36-8e9b-e7d009181a57",
             "51418b13-a045-4270-b3f0-502a1ca6822b"
+=======
+            "03fb743c-2633-4161-af11-dbab5e376dac",
+            "a15d2212-2aba-4736-847d-cd936567d979"
+>>>>>>> origin/main
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 41212,
+=======
+          "duration": 41512,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1734,7 +2604,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "6ae05410-b064-402e-b61a-42604aaf2802",
+=======
+      "uuid": "d5573cc0-cc4b-4e72-9f8f-6515b6bf43f4",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\single_sign_on.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\single_sign_on.cy.ts",
@@ -1743,7 +2617,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+          "uuid": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : My Company : Employee Management : Single Sign On",
           "fullFile": "",
           "file": "",
@@ -1754,7 +2632,11 @@
               "title": "Validate employees single-sign-on status",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate employees single-sign-on status",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 38179,
+=======
+              "duration": 38033,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1763,8 +2645,13 @@
               "context": null,
               "code": "EMPLOYEES.federation('status', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c09bcf39-21ac-4c8f-a7c1-5d0790e0ba29",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "uuid": "c9b90792-1923-48f8-a82b-b1cc3eabf847",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1772,7 +2659,11 @@
               "title": "Validate dialog existing providers",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate dialog existing providers",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 10799,
+=======
+              "duration": 10447,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1781,8 +2672,13 @@
               "context": null,
               "code": "EMPLOYEES.federation('dialog providers', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "1bfefad5-341b-4085-aec5-eaa3fbb8d2eb",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "uuid": "320cc3af-ce2e-41a6-b101-d809b3414aef",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1790,7 +2686,11 @@
               "title": "Validate selected provider : Microsoft (O365)",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate selected provider : Microsoft (O365)",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 11183,
+=======
+              "duration": 11658,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1799,8 +2699,13 @@
               "context": null,
               "code": "EMPLOYEES.federation('microsoft', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "95e27452-c61f-4bd8-93e6-abb1119f5317",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "uuid": "716d78f8-5949-4309-bb40-a6be01b77ff6",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1808,7 +2713,11 @@
               "title": "Validate selected provider : Google",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate selected provider : Google",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 11694,
+=======
+              "duration": 11909,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1817,8 +2726,13 @@
               "context": null,
               "code": "EMPLOYEES.federation('google', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "9b8de726-37d3-4b73-b743-f45d61f7e10e",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "uuid": "2cbf58cf-719b-402a-b035-bae0cfe00c27",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1826,7 +2740,11 @@
               "title": "Validate selected provider : Okta",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate selected provider : Okta",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 12095,
+=======
+              "duration": 11155,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1835,8 +2753,13 @@
               "context": null,
               "code": "EMPLOYEES.federation('okta', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "db374d85-0599-40c4-b397-29f7eb31b07c",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "uuid": "79351758-a6f7-4e4d-a9d7-911ff2fb3e94",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1844,7 +2767,11 @@
               "title": "Validate single tenant provider details",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate single tenant provider details",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 10081,
+=======
+              "duration": 10234,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1853,8 +2780,13 @@
               "context": null,
               "code": "EMPLOYEES.federation('single tenant', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "50f92c7d-779e-4c2e-8e58-daea42d4939c",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "uuid": "8c61cb96-fbe7-4956-b1ef-59735d7804af",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1862,7 +2794,11 @@
               "title": "Validate field validation on single tenant providers",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate field validation on single tenant providers",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 13273,
+=======
+              "duration": 13381,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1871,8 +2807,13 @@
               "context": null,
               "code": "EMPLOYEES.federation('field validation', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "e21d3233-7d45-4ede-810a-0bd2002b1270",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "uuid": "dfd6125b-221c-44a5-a0ac-d11f539ab789",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1880,6 +2821,7 @@
               "title": "Validate copy APP ID url on single tenant providers",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate copy APP ID url on single tenant providers",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 11612,
               "state": "passed",
               "speed": "slow",
@@ -1891,6 +2833,23 @@
               "err": {},
               "uuid": "4bec4386-8ddf-470f-a1cd-a03ee78c972c",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "duration": 41860,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "EMPLOYEES.federation('copy APP ID url', 'employees');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `div[role='alert'][direction='up']`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `div[role='alert'][direction='up']`, but never found it.\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.toaster (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:365:29)\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:2550:42)",
+                "diff": null
+              },
+              "uuid": "4c529c21-4a67-43e9-b169-832abdfa86f9",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1898,6 +2857,7 @@
               "title": "Validate copy redirect url on single tenant providers",
               "fullTitle": "UT : Manager Admin : My Company : Employee Management : Single Sign On Validate copy redirect url on single tenant providers",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 11981,
               "state": "passed",
               "speed": "slow",
@@ -1909,12 +2869,30 @@
               "err": {},
               "uuid": "73779dc6-6e40-49da-b315-41e91d3d9011",
               "parentUUID": "3c76b1be-fc03-4e2b-a156-41ba889fc66d",
+=======
+              "duration": 42075,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "EMPLOYEES.federation('copy redirect url', 'employees');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `div[role='alert'][direction='up']`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `div[role='alert'][direction='up']`, but never found it.\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.toaster (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:365:29)\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/my-company/employees_users.ts:2559:42)",
+                "diff": null
+              },
+              "uuid": "dc828986-59eb-4f7f-addb-7f2f824ddb1e",
+              "parentUUID": "805d2039-3f93-46ca-bd94-2df7a6b788d0",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "c09bcf39-21ac-4c8f-a7c1-5d0790e0ba29",
             "1bfefad5-341b-4085-aec5-eaa3fbb8d2eb",
             "95e27452-c61f-4bd8-93e6-abb1119f5317",
@@ -1924,11 +2902,28 @@
             "e21d3233-7d45-4ede-810a-0bd2002b1270",
             "4bec4386-8ddf-470f-a1cd-a03ee78c972c",
             "73779dc6-6e40-49da-b315-41e91d3d9011"
+=======
+            "c9b90792-1923-48f8-a82b-b1cc3eabf847",
+            "320cc3af-ce2e-41a6-b101-d809b3414aef",
+            "716d78f8-5949-4309-bb40-a6be01b77ff6",
+            "2cbf58cf-719b-402a-b035-bae0cfe00c27",
+            "79351758-a6f7-4e4d-a9d7-911ff2fb3e94",
+            "8c61cb96-fbe7-4956-b1ef-59735d7804af",
+            "dfd6125b-221c-44a5-a0ac-d11f539ab789"
+          ],
+          "failures": [
+            "4c529c21-4a67-43e9-b169-832abdfa86f9",
+            "dc828986-59eb-4f7f-addb-7f2f824ddb1e"
+>>>>>>> origin/main
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 130897,
+=======
+          "duration": 190752,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1944,7 +2939,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "504d4c49-f285-409e-9adc-b368ddbf0d1a",
+=======
+      "uuid": "62041917-9521-4821-a59d-386694f8bd8e",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\tags.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\employee\\tags.cy.ts",
@@ -1953,7 +2952,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+          "uuid": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : My Company : Tags",
           "fullFile": "",
           "file": "",
@@ -1964,7 +2967,11 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Manager Admin : My Company : Tags Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 34348,
+=======
+              "duration": 33383,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1973,8 +2980,13 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-default-items', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "01622393-70ea-412e-a38d-54a8cf856629",
               "parentUUID": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+              "uuid": "16ff8654-0423-4885-b620-810c28dc419d",
+              "parentUUID": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -1982,7 +2994,11 @@
               "title": "Validate create new tag",
               "fullTitle": "UT : Manager Admin : My Company : Tags Validate create new tag",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 19707,
+=======
+              "duration": 19623,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1991,8 +3007,13 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-create-new-tag', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5aa02227-53ab-49b7-90e5-a4c9fec24cba",
               "parentUUID": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+              "uuid": "db646bf2-c510-4acd-aa34-9ec472a8c344",
+              "parentUUID": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2000,7 +3021,11 @@
               "title": "Validate update created tag",
               "fullTitle": "UT : Manager Admin : My Company : Tags Validate update created tag",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 18858,
+=======
+              "duration": 19216,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2009,8 +3034,13 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-update-created-tag', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b3790f2c-0d6c-4c61-85c2-93ff4dc1eac6",
               "parentUUID": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+              "uuid": "8980c10b-976e-40c5-8b7f-a2653bd8a1ca",
+              "parentUUID": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2018,7 +3048,11 @@
               "title": "Validate delete created tag",
               "fullTitle": "UT : Manager Admin : My Company : Tags Validate delete created tag",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 19428,
+=======
+              "duration": 20944,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2027,8 +3061,13 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-delete-created-tag', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "d7a256a1-1552-4401-921d-6f7a65a900b5",
               "parentUUID": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+              "uuid": "805860f3-a2ef-4cad-8455-b31c96c91887",
+              "parentUUID": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2036,7 +3075,11 @@
               "title": "OOTB - Validate duplicate Tag should not be accepted",
               "fullTitle": "UT : Manager Admin : My Company : Tags OOTB - Validate duplicate Tag should not be accepted",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 16478,
+=======
+              "duration": 18101,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2045,8 +3088,13 @@
               "context": null,
               "code": "TAGS.tagsScenarios('validate-existing-tags', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "87b52db0-233a-4a99-9c58-f86bf7ec0363",
               "parentUUID": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+              "uuid": "d220e81c-49b1-4125-896c-16899c263739",
+              "parentUUID": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2054,7 +3102,11 @@
               "title": "Negative - Validate cancel creating tags",
               "fullTitle": "UT : Manager Admin : My Company : Tags Negative - Validate cancel creating tags",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 15612,
+=======
+              "duration": 15247,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2063,8 +3115,13 @@
               "context": null,
               "code": "TAGS.tagsScenarios('cancel-create-tags', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "abf78f08-285f-4684-9071-f2aefa8dabb4",
               "parentUUID": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+              "uuid": "0486b4d0-b2c2-4d73-84df-7c8d3fb89d40",
+              "parentUUID": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2072,7 +3129,11 @@
               "title": "Negative - Validate save button when editing tags with empty value",
               "fullTitle": "UT : Manager Admin : My Company : Tags Negative - Validate save button when editing tags with empty value",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 14761,
+=======
+              "duration": 14854,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2081,8 +3142,13 @@
               "context": null,
               "code": "TAGS.tagsScenarios('update-empty-value', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "53e14aaf-fce7-42bd-8bc8-a665a7ae0a39",
               "parentUUID": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+              "uuid": "3074a16f-847a-401f-ab39-1d23741d81ae",
+              "parentUUID": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2090,7 +3156,11 @@
               "title": "Negative - Validate save button is disabled when creating tags with empty value",
               "fullTitle": "UT : Manager Admin : My Company : Tags Negative - Validate save button is disabled when creating tags with empty value",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 14447,
+=======
+              "duration": 14299,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2099,14 +3169,20 @@
               "context": null,
               "code": "TAGS.tagsScenarios('create-empty-value', 'employees');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "68da096e-00c3-42fd-83da-01f29bc3b7bc",
               "parentUUID": "a9d58505-18f0-47ee-9aad-61aa7855b72c",
+=======
+              "uuid": "7170772b-c5f2-4b68-890a-e664722ccd99",
+              "parentUUID": "5d7e5f24-2480-4600-81b7-cbaf67b270b4",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "01622393-70ea-412e-a38d-54a8cf856629",
             "5aa02227-53ab-49b7-90e5-a4c9fec24cba",
             "b3790f2c-0d6c-4c61-85c2-93ff4dc1eac6",
@@ -2115,11 +3191,25 @@
             "abf78f08-285f-4684-9071-f2aefa8dabb4",
             "53e14aaf-fce7-42bd-8bc8-a665a7ae0a39",
             "68da096e-00c3-42fd-83da-01f29bc3b7bc"
+=======
+            "16ff8654-0423-4885-b620-810c28dc419d",
+            "db646bf2-c510-4acd-aa34-9ec472a8c344",
+            "8980c10b-976e-40c5-8b7f-a2653bd8a1ca",
+            "805860f3-a2ef-4cad-8455-b31c96c91887",
+            "d220e81c-49b1-4125-896c-16899c263739",
+            "0486b4d0-b2c2-4d73-84df-7c8d3fb89d40",
+            "3074a16f-847a-401f-ab39-1d23741d81ae",
+            "7170772b-c5f2-4b68-890a-e664722ccd99"
+>>>>>>> origin/main
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 153639,
+=======
+          "duration": 155667,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -2135,7 +3225,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "23acc430-c76b-4a59-b034-3c2df13761c2",
+=======
+      "uuid": "d9ca1752-5535-41ab-a2b7-c73d168df8a1",
+>>>>>>> origin/main
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\training-reports\\annual.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\manager-admin\\my-company\\training-reports\\annual.cy.ts",
@@ -2144,7 +3238,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+          "uuid": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
           "title": "UT : Manager Admin : Company : Training Reports : Annual",
           "fullFile": "",
           "file": "",
@@ -2155,7 +3253,11 @@
               "title": "Validate must exist items inside Training Reports",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate must exist items inside Training Reports",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 31122,
+=======
+              "duration": 29587,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2164,8 +3266,13 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('validate-items', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "17af4dd7-6691-429a-9ec6-9221d58d080b",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "17b66897-d9d4-47c0-9e74-1f106c47cbf7",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2173,7 +3280,11 @@
               "title": "Validate viewing certificates done by all users in 2023 Cybersecurity Training",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate viewing certificates done by all users in 2023 Cybersecurity Training",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 72575,
+=======
+              "duration": 72109,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2182,8 +3293,13 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2023 Cybersecurity Training');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "e51474ed-7683-4e8a-b665-8d4988cdcbeb",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "f1fff9ce-bd3b-4e81-9c77-30ba7924c3a9",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2191,7 +3307,11 @@
               "title": "Validate viewing certificates done by all users in 2023 Cyber Manager Training",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate viewing certificates done by all users in 2023 Cyber Manager Training",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 52581,
+=======
+              "duration": 52205,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2200,8 +3320,13 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2023 Cyber Manager Training');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b6b75883-3994-4a75-a623-bc418dc25f0c",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "9afd0812-da20-40a1-9bf7-2754d5e79f6b",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2209,7 +3334,11 @@
               "title": "Validate viewing certificates done by all users in 2022 Cybersecurity Training",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate viewing certificates done by all users in 2022 Cybersecurity Training",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 73615,
+=======
+              "duration": 73353,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2218,8 +3347,13 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('view-all-certificates', '2022 Cybersecurity Training');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b3c28464-3e58-434a-8f66-cb031e65c161",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "0d50593b-f8a0-4636-aada-a0b56c39a43d",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2227,7 +3361,11 @@
               "title": "Validate downloading certificates done by all users in 2023 Cybersecurity Training",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate downloading certificates done by all users in 2023 Cybersecurity Training",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 38462,
+=======
+              "duration": 38971,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2236,8 +3374,13 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2023 Cybersecurity Training');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c45ab9d6-88c4-45fe-8aa8-a6c7afb3d35d",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "4bcb8314-fa18-4843-86ec-6bb3ce53469b",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2245,7 +3388,11 @@
               "title": "Validate downloading certificates done by all users in 2023 Cyber Manager Training",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate downloading certificates done by all users in 2023 Cyber Manager Training",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 29248,
+=======
+              "duration": 30264,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2254,8 +3401,13 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2023 Cyber Manager Training');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "7a8b753a-4bed-49c7-865e-0fefb1c84f88",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "6f64c262-d67e-43e9-937e-d64c2fc97d59",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2263,7 +3415,11 @@
               "title": "Validate downloading certificates done by all users in 2022 Cybersecurity Training",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate downloading certificates done by all users in 2022 Cybersecurity Training",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 38129,
+=======
+              "duration": 37748,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2272,8 +3428,13 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-all-certificates', '2022 Cybersecurity Training');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "9bfde5f8-5053-47ad-ad0c-c73526188706",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "57ad41f3-ecfb-48a4-9796-7a9e0bd13de5",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2281,17 +3442,28 @@
               "title": "Validate downloading Selected Training Report",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate downloading Selected Training Report",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 12153,
               "state": "passed",
               "speed": "slow",
+=======
+              "duration": 9955,
+              "state": "passed",
+              "speed": "medium",
+>>>>>>> origin/main
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "TRAINING_REPORTS.annual('download-selected-training-report', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "6c9b38d9-1557-45cd-ab71-ebaa226e4f3f",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "ea4ebef2-f8ab-4514-afb8-686a44c016bb",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2299,7 +3471,11 @@
               "title": "Validate searching existing client in Annual",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Validate searching existing client in Annual",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 23245,
+=======
+              "duration": 22731,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2308,8 +3484,13 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('search-existing-user', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "6714184c-f4da-4be3-b303-8f03aa4d69e1",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "273aeca4-4085-4989-910a-aa17ec303f71",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             },
@@ -2317,7 +3498,11 @@
               "title": "Negative: Validate searching non existing client in Annual",
               "fullTitle": "UT : Manager Admin : Company : Training Reports : Annual Negative: Validate searching non existing client in Annual",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 19080,
+=======
+              "duration": 18576,
+>>>>>>> origin/main
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2326,14 +3511,20 @@
               "context": null,
               "code": "TRAINING_REPORTS.annual('search-non-existing-user', '');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "83e1d3a5-200b-4942-b2d4-74219e1718af",
               "parentUUID": "6485368c-ee18-46ea-9033-7fd252e08692",
+=======
+              "uuid": "4fcb1d73-360c-48e0-8fdb-8ece8cda09fb",
+              "parentUUID": "a0bbb25c-e70e-4dbe-bce7-9201b4fe14c7",
+>>>>>>> origin/main
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "17af4dd7-6691-429a-9ec6-9221d58d080b",
             "e51474ed-7683-4e8a-b665-8d4988cdcbeb",
             "b6b75883-3994-4a75-a623-bc418dc25f0c",
@@ -2344,11 +3535,27 @@
             "6c9b38d9-1557-45cd-ab71-ebaa226e4f3f",
             "6714184c-f4da-4be3-b303-8f03aa4d69e1",
             "83e1d3a5-200b-4942-b2d4-74219e1718af"
+=======
+            "17b66897-d9d4-47c0-9e74-1f106c47cbf7",
+            "f1fff9ce-bd3b-4e81-9c77-30ba7924c3a9",
+            "9afd0812-da20-40a1-9bf7-2754d5e79f6b",
+            "0d50593b-f8a0-4636-aada-a0b56c39a43d",
+            "4bcb8314-fa18-4843-86ec-6bb3ce53469b",
+            "6f64c262-d67e-43e9-937e-d64c2fc97d59",
+            "57ad41f3-ecfb-48a4-9796-7a9e0bd13de5",
+            "ea4ebef2-f8ab-4514-afb8-686a44c016bb",
+            "273aeca4-4085-4989-910a-aa17ec303f71",
+            "4fcb1d73-360c-48e0-8fdb-8ece8cda09fb"
+>>>>>>> origin/main
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 390210,
+=======
+          "duration": 385499,
+>>>>>>> origin/main
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
